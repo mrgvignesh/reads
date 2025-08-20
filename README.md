@@ -71,3 +71,7 @@ WEALTH TAX AND GIFT TAX: - As per Section 3 of Wealth Tax Act, 1957, Wealth tax 
 BUSINESS INCOME: - Such trusts can also carry sole proprietary business and can also become partners in partnership business through the trustees or shebaits. The deed of dedication should specify that trust can do business.
 
 CONCLUSION: - Those assessees who are very religious and are dedicated to gods and are spending heavy amount for Seva Puja and worship of family gods should create trusts for their family gods so that they can gradually create a good fund for future worship of such gods and the expenses incurred for the seva puja of family gods can be properly accounted for. There is no control of income tax department as regards investment, spending of income or registration of such trusts as in case of Charitable Trust.
+
+
+# Benefits of Mango Ginger
+https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76
