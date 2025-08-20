@@ -9,13 +9,40 @@ https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-
 TRUST IN FAVOUR OF HINDU GODS-A tax unit 
 https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx
 
- 	
 
-
+# Brain Fitness Score
+https://form.jotform.com/232184893262057
+BMI (Body Mass Index)* 
+Describe your energy levels by moving the scale between 1 to 5. I have been full of energy for the entire week.(1- Not at all, 5- On top Energy)* 
+Describe how often do you get distracted. I get easily distracted.( 1-Never & 5-Always)* 
+I feel quite anxious and stressed most times for last few weeks or more. ( 1- No stress or anxiety and 5- Some level of stress and anxiety is always present)* This 
+I have been struggling with brain fog. ( 1-No fog and 5- Most times )* This 
+I have been struggling to remember things and often forget the names of people. (1- No struggle and 5- Always struggle)* 
+Do you take Omega 3 tablets everyday OR do you eat 2 portions of oily fish weekly?* 
+Do you eat 2 portions of red meat a week OR take a daily supplement with at least 25mcg of vitamin B12 ?* 
+Practice Meditation or Mindfulness for at least 10 minutes per day?( 0- 7 days)* 
+Being active for 20 minutes or more per day. Activities can include walking, yoga, gym workouts etc. (0-7 days)* 
+Do you drink more than two liters of water per day? ( 0 -7 days)* This field is required.
+Each day, ideally you should be drinking 2 to 3 liters of the water.
+Do you drink two or more any alcoholic drinks per day? ( 0-7 days)* 
+Do you smoke any kind of tobacco in a day? ( 0-7 days)* 
+Do you take any kind of prescription medication for any disease? ( 0-7 days)* 
+How would you rate your sleep ( 1 is pretty unrestful & 5 is Excellent)* This 
+How connected do you feel with your friends or family? ( 1- Not connected and 5- Well connected)* 
+How healthy would you rate your food choices, particularly in relation to the brain? Eating fresh fruits, less sugar, good vitamin rich food helps the brain health. (1- Not good 5- Very good and healthy)* 
+Have you been diagnosed with Hypertension(High BP)* 
+Have you been diagnosed with heart issues?( Ischemic heart disease)* 
+Have you been diagnosed with high cholesterol? (Hyperlipidemia)* 
+Have you been diagnosed with Diabetes?(High sugar)* 
+I have been diagnosed with hearing loss or I believe I have some hearing loss* 
+Do you have concerns about the memory loss?* 
+Brain score assessment
+Final question- Considering all things, would you say your brain health is?* 
+Your score is 58/100
 
  
 
-#TRUST IN FAVOUR OF HINDU GODS-A tax unit
+# TRUST IN FAVOUR OF HINDU GODS-A tax unit
 
  - INTRODUCTION :- Indian public worship millions and millions of Gods and Goddesses and spend a huge amount for their worship and seva Puja. Every family worships his own God or Goddess either by constructing their own temples or without constructing temples in their houses. The expenses for the seva puja of Gods and Idols are not allowed to be setoff against regular income of the assessee. Contribution is also made for such gods by their devotees. The investment of such fund is also required to be made and income arising out of such investment is subject to Income Tax. Hence, it is advisable to create trusts for such deities and gods for the sake of proper tax planning.  
 
