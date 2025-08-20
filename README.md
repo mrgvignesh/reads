@@ -5,3 +5,42 @@ https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-
 - Reconsolidation can help you transfer short-term memories to long-term memory.
 - Exercise can help you improve your ability to learn something new.
 - Sleep can help you remember more and for longer.
+
+TRUST IN FAVOUR OF HINDU GODS-A tax unit 
+https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx
+
+ 	
+
+
+
+ 
+
+#TRUST IN FAVOUR OF HINDU GODS-A tax unit
+
+ - INTRODUCTION :- Indian public worship millions and millions of Gods and Goddesses and spend a huge amount for their worship and seva Puja. Every family worships his own God or Goddess either by constructing their own temples or without constructing temples in their houses. The expenses for the seva puja of Gods and Idols are not allowed to be setoff against regular income of the assessee. Contribution is also made for such gods by their devotees. The investment of such fund is also required to be made and income arising out of such investment is subject to Income Tax. Hence, it is advisable to create trusts for such deities and gods for the sake of proper tax planning.  
+
+
+CREATION OF TRUST: - By making a deed of dedication in favour of gods and idols, trust for Gods can be created very simply and easily. Utmost care should be taken in drafting of deed of dedication. The settler can create such trust even by making small amount of gifts. Such trust need not be registered. The trust created for a family deity is not a public religious trust.
+ 
+
+OBJECT OF TRUST: - The objects and purpose for creation of such trust is seva puja of family god, goddess, deity and idol etc, holding of religious functions and Ceremonies as well as maintenance of property, investment of funds etc.
+
+
+WHO CAN BE TRUSTEES: - The trustees also called as managers or shebaits of the trust can be any major member of the family of the assessee. However, he should not be a person of an unsound mind.
+
+SOURCE OF FUND OF THE TRUST: - The family members can make donations or gifts in favour of such god or idol for the corpus of such trust. Such corpus contribution made for such trust is not taxable in the hands of the trust. However, the persons not belonging to the family of the assessee can also make such donations and gifts for the corpus of such trust.
+
+
+STATUS OF THE TRUST: - Such trusts are assessed as Artificial Juridical Person as per Sec. 2(3) (VII) of the Income Tax Act, 1961. The apex court in official Trustee of West Bengal (For the trust of Chitra Devi) Vs CIT (SC) 93 ITR 348 (SC) 1974 has held that a Hindu deity can be in receipt of income which can naturally be taxed through shebaits who represent such trusts. It was also mentioned by their Lordship in the said judgement that the problem whether the Hindu deity is an individual is not likely to arise after enactment of the Income Tax Act, 1961, where in clause (31) of Sec 2 defines a person as also including Artificial Juridical Person. Hence, trust made for gods and idols shall be assessed as Artificial Juridical person at the rate applicable to individuals.
+
+MODE OF INVESTMETNS: - The Private family god can make investment in movable or immovable properties. It can even make investment in Private Loans, Mutual Funds, shares and securities etc. There is no restriction on mode of investment of a Private family god trust like Charitable Trusts. It has also been held in The Official Trusty of West Bengal (For the trust of Chaitra Dassi) VS CIT (Supra) that the trust created for family gods can hold immovable property.
+
+DEMAT ACCOUNTS: - The Bombay High Court has recently rejected a petition seeking permission to open demats accounts in the name of Hindu Gods Observing that deities should remain in temple and not in stock markets. While disposing of the petition filed by a religious trust, justice.
+
+EXISTANCE OF IMAGE: - Existence of image is also not necessary for creation of family god trusts. Because Hindu does not worship the Idol or the material body but worship the eternal spirit of the deity in a suggestive or convenient form which is the image and therefore, the non existence of the image can not invalidate the endowment. The dedication to an idol is dedication to the deity who is ever present and ever existent.
+
+WEALTH TAX AND GIFT TAX: - As per Section 3 of Wealth Tax Act, 1957, Wealth tax is chargeable on certain assets of individuals, HUF and company only. The family gods are not covered by Section 3 of Wealth Tax Act and as such no Wealth Tax is Chargeable on any amount of assets held by such trust. Although Gift Tax Act, has been abolished but Sec. 56(2) (VII) indirectly has replaced gift tax. Section 56(2) (VII) includes only individual and HUF and hence such trusts are out of the clutches of provisions of Sec. 56(2) (VII) of the Income Tax Act, 1961. These trusts are also out of the preview of recently inserted section 56(2) (VIIa) of the Income Tax Act, 1961.
+
+BUSINESS INCOME: - Such trusts can also carry sole proprietary business and can also become partners in partnership business through the trustees or shebaits. The deed of dedication should specify that trust can do business.
+
+CONCLUSION: - Those assessees who are very religious and are dedicated to gods and are spending heavy amount for Seva Puja and worship of family gods should create trusts for their family gods so that they can gradually create a good fund for future worship of such gods and the expenses incurred for the seva puja of family gods can be properly accounted for. There is no control of income tax department as regards investment, spending of income or registration of such trusts as in case of Charitable Trust.
