@@ -6,6 +6,25 @@ https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-
 - Exercise can help you improve your ability to learn something new.
 - Sleep can help you remember more and for longer.
 
+# Why Good People Get Betrayed: The Gita’s Harsh Truth
+Betrayal feels like a knife to the soul, especially when you’ve done nothing but give love, help, or loyalty. The common belief is that good people deserve good treatment. But the Gita challenges this romantic ideal. Lord Krishna makes it clear: the universe doesn’t operate on emotional logic. It operates on karma, awareness, and duty (dharma). If you’re good but unaware, kind but overly attached, you're not protected , you’re vulnerable. Here’s why betrayal happens to good people, and what the Gita wants you to understand about it.
+
+1. Goodness Without Discretion Is Dangerous
+The Gita says, “Sammohaḥ smṛti-vibhrāmaḥ” — confusion leads to memory loss and poor judgment. Being good doesn’t mean being blind. When your kindness lacks discernment, you start giving to those who only take. Krishna never told Arjuna to surrender to the enemy. He told him to stand up and fight with clarity. Even love needs limits.
+
+2. Attachment Blinds You to Reality
+When we become emotionally attached, we stop seeing people as they are we see them as we want them to be. The Gita calls this moha (delusion). Betrayal often feels shocking because we ignored the red flags. Krishna warns: attachment leads to sorrow. Awareness protects your peace.
+
+3. Expectations Create Suffering
+Betrayal cuts deepest when we expect loyalty in return for our kindness. But Krishna advises Arjuna to act without expecting results (Nishkama Karma). You can love purely, give fully but the Gita reminds us that you cannot control how others treat you. Expectation is the silent seed of heartbreak.
+
+4. Your Dharma Is to Be True, Not to Be Used
+Many good people stay silent, hoping their sacrifice will change others. But Krishna never asks Arjuna to be passive. Dharma means doing what’s right for your growth, not tolerating wrong in the name of goodness. If someone repeatedly disrespects you, walking away is not pride it's alignment.
+
+5. Forgiveness Doesn’t Mean Re-entry
+The Gita promotes forgiveness, but not foolishness. Krishna forgives, yet never allows adharma to continue. You can forgive someone in your heart, but still protect your energy and close the door. Spiritual maturity is not letting someone keep wounding you in the name of peace.
+
+
 # Why the People You Help the Most Leave You First, Gita Explains
 1. Helping creates bonds, but also imbalance
 Every act of help creates a hidden imbalance. You feel invested, they feel indebted. One side expects loyalty, the other feels the pressure to return it. The Gita reminds us: any action tied to expectation brings suffering. If you want your giving to feel free instead of heavy, remove the “they owe me” clause. Otherwise, you’re not helping, you’re trading.
