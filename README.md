@@ -6,8 +6,24 @@ https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-
 - Exercise can help you improve your ability to learn something new.
 - Sleep can help you remember more and for longer.
 
-TRUST IN FAVOUR OF HINDU GODS-A tax unit 
-https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx
+# Why the People You Help the Most Leave You First, Gita Explains
+1. Helping creates bonds, but also imbalance
+Every act of help creates a hidden imbalance. You feel invested, they feel indebted. One side expects loyalty, the other feels the pressure to return it. The Gita reminds us: any action tied to expectation brings suffering. If you want your giving to feel free instead of heavy, remove the “they owe me” clause. Otherwise, you’re not helping, you’re trading.
+
+2. People cling to outcomes, not origins
+Here’s the uncomfortable truth: humans attach to results, not to those who enabled them. A friend remembers the peace of getting over a breakup, not the nights you stayed up talking them through it. A colleague remembers the promotion, not that you helped prep them for it. The Gita frames it simply: attachment forms to the fruit, not the hand that nurtured the seed. It isn’t malice, it’s human nature.
+Stop expecting people to archive you in their memory for what you did. Instead, treat your help like planting a tree for strangers. You may never sit in its shade, but it still matters.
+
+3. Ego turns gratitude into distance
+To say “thank you” deeply means admitting, I couldn’t do this without you. That’s hard on the ego. Most people would rather create distance than sit with the discomfort of indebtedness. So they leave, not because you weren’t valuable, but because their pride couldn’t coexist with their gratitude.
+Don’t measure someone’s character by how they thank you when they need you. Measure it by how they behave when they don’t. If they vanish, it reveals more about their inner battles than about your worth.
+
+4. The rescuer’s curse
+If you always show up as the savior, you condition people to lean instead of stand. And once they can stand, they’ll often step away. The Gita warns: do your duty, but don’t mistake it for your identity. If your sense of self comes only from being needed, you will always feel abandoned once that need is gone.
+Help people, but don’t become addicted to being the rescuer. Build your own life, your own purpose, so their leaving doesn’t feel like your collapse.
+
+5. Detachment: the freedom to give without chains
+Krishna’s wisdom is clear: act without attachment to results. Apply it here, help without clinging, love without bargaining, give without demanding permanence. That doesn’t mean you become cold or stop caring. It means you choose to give as an act of integrity, not as a transaction.The highest freedom is when you can look at someone who left, smile, and think, I gave them my best. What they did with it is theirs, not mine. That is strength no betrayal can touch.
 
 
 # Brain Fitness Score
@@ -39,10 +55,10 @@ Do you have concerns about the memory loss?*
 Brain score assessment
 Final question- Considering all things, would you say your brain health is?* 
 Your score is 58/100
-
  
 
 # TRUST IN FAVOUR OF HINDU GODS-A tax unit
+https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx
 
  - INTRODUCTION :- Indian public worship millions and millions of Gods and Goddesses and spend a huge amount for their worship and seva Puja. Every family worships his own God or Goddess either by constructing their own temples or without constructing temples in their houses. The expenses for the seva puja of Gods and Idols are not allowed to be setoff against regular income of the assessee. Contribution is also made for such gods by their devotees. The investment of such fund is also required to be made and income arising out of such investment is subject to Income Tax. Hence, it is advisable to create trusts for such deities and gods for the sake of proper tax planning.  
 
