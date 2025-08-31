@@ -1,4 +1,4 @@
-# [Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten] (https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930)
+# Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten [Link](https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930)
 
 - Interleaving can help you learn several subjects or skills in succession. 
 - Reconsolidation can help you transfer short-term memories to long-term memory.
@@ -45,7 +45,7 @@ Help people, but don’t become addicted to being the rescuer. Build your own li
 Krishna’s wisdom is clear: act without attachment to results. Apply it here, help without clinging, love without bargaining, give without demanding permanence. That doesn’t mean you become cold or stop caring. It means you choose to give as an act of integrity, not as a transaction.The highest freedom is when you can look at someone who left, smile, and think, I gave them my best. What they did with it is theirs, not mine. That is strength no betrayal can touch.  
             _____________________________________________________________________________________________________________________           
 
-# [Brain Fitness Score] (https://form.jotform.com/232184893262057)
+# Brain Fitness Score [Link](https://form.jotform.com/232184893262057)
 BMI (Body Mass Index)*    
 Describe your energy levels by moving the scale between 1 to 5. I have been full of energy for the entire week.(1- Not at all, 5- On top Energy)* 
 Describe how often do you get distracted. I get easily distracted.( 1-Never & 5-Always)*    
@@ -75,7 +75,7 @@ Final question- Considering all things, would you say your brain health is?*
 Your score is 58/100  
             _____________________________________________________________________________________________________________________           
 
-# [TRUST IN FAVOUR OF HINDU GODS-A tax unit] (https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx)
+# TRUST IN FAVOUR OF HINDU GODS-A tax unit [Link](https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx)
 
  - INTRODUCTION :- Indian public worship millions and millions of Gods and Goddesses and spend a huge amount for their worship and seva Puja. Every family worships his own God or Goddess either by constructing their own temples or without constructing temples in their houses. The expenses for the seva puja of Gods and Idols are not allowed to be setoff against regular income of the assessee. Contribution is also made for such gods by their devotees. The investment of such fund is also required to be made and income arising out of such investment is subject to Income Tax. Hence, it is advisable to create trusts for such deities and gods for the sake of proper tax planning.  
 
@@ -107,4 +107,4 @@ CONCLUSION: - Those assessees who are very religious and are dedicated to gods a
             _____________________________________________________________________________________________________________________           
 
 # Benefits of Mango Ginger
-[Paper] (https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76  )
+[Paper](https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76  )
