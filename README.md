@@ -1,10 +1,9 @@
-# Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten
-https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930
+# Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten [https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930]
 
 - Interleaving can help you learn several subjects or skills in succession. 
 - Reconsolidation can help you transfer short-term memories to long-term memory.
 - Exercise can help you improve your ability to learn something new.
-- Sleep can help you remember more and for longer.
+- Sleep can help you remember more and for longer.  
             _____________________________________________________________________________________________________________________           
 
 # Why Good People Get Betrayed: The Gita’s Harsh Truth
@@ -23,7 +22,7 @@ Betrayal cuts deepest when we expect loyalty in return for our kindness. But Kri
 Many good people stay silent, hoping their sacrifice will change others. But Krishna never asks Arjuna to be passive. Dharma means doing what’s right for your growth, not tolerating wrong in the name of goodness. If someone repeatedly disrespects you, walking away is not pride it's alignment.
 
 5. Forgiveness Doesn’t Mean Re-entry : 
-The Gita promotes forgiveness, but not foolishness. Krishna forgives, yet never allows adharma to continue. You can forgive someone in your heart, but still protect your energy and close the door. Spiritual maturity is not letting someone keep wounding you in the name of peace.
+The Gita promotes forgiveness, but not foolishness. Krishna forgives, yet never allows adharma to continue. You can forgive someone in your heart, but still protect your energy and close the door. Spiritual maturity is not letting someone keep wounding you in the name of peace.  
             _____________________________________________________________________________________________________________________           
 
 # Why the People You Help the Most Leave You First, Gita Explains
@@ -43,42 +42,40 @@ If you always show up as the savior, you condition people to lean instead of sta
 Help people, but don’t become addicted to being the rescuer. Build your own life, your own purpose, so their leaving doesn’t feel like your collapse.
 
 5. Detachment: the freedom to give without chains
-Krishna’s wisdom is clear: act without attachment to results. Apply it here, help without clinging, love without bargaining, give without demanding permanence. That doesn’t mean you become cold or stop caring. It means you choose to give as an act of integrity, not as a transaction.The highest freedom is when you can look at someone who left, smile, and think, I gave them my best. What they did with it is theirs, not mine. That is strength no betrayal can touch.
+Krishna’s wisdom is clear: act without attachment to results. Apply it here, help without clinging, love without bargaining, give without demanding permanence. That doesn’t mean you become cold or stop caring. It means you choose to give as an act of integrity, not as a transaction.The highest freedom is when you can look at someone who left, smile, and think, I gave them my best. What they did with it is theirs, not mine. That is strength no betrayal can touch.  
             _____________________________________________________________________________________________________________________           
 
-# Brain Fitness Score
-https://form.jotform.com/232184893262057
-BMI (Body Mass Index)* 
+# Brain Fitness Score [https://form.jotform.com/232184893262057]
+BMI (Body Mass Index)*    
 Describe your energy levels by moving the scale between 1 to 5. I have been full of energy for the entire week.(1- Not at all, 5- On top Energy)* 
-Describe how often do you get distracted. I get easily distracted.( 1-Never & 5-Always)* 
-I feel quite anxious and stressed most times for last few weeks or more. ( 1- No stress or anxiety and 5- Some level of stress and anxiety is always present)* This 
-I have been struggling with brain fog. ( 1-No fog and 5- Most times )* This 
-I have been struggling to remember things and often forget the names of people. (1- No struggle and 5- Always struggle)* 
-Do you take Omega 3 tablets everyday OR do you eat 2 portions of oily fish weekly?* 
-Do you eat 2 portions of red meat a week OR take a daily supplement with at least 25mcg of vitamin B12 ?* 
-Practice Meditation or Mindfulness for at least 10 minutes per day?( 0- 7 days)* 
-Being active for 20 minutes or more per day. Activities can include walking, yoga, gym workouts etc. (0-7 days)* 
-Do you drink more than two liters of water per day? ( 0 -7 days)* This field is required.
-Each day, ideally you should be drinking 2 to 3 liters of the water.
-Do you drink two or more any alcoholic drinks per day? ( 0-7 days)* 
-Do you smoke any kind of tobacco in a day? ( 0-7 days)* 
-Do you take any kind of prescription medication for any disease? ( 0-7 days)* 
+Describe how often do you get distracted. I get easily distracted.( 1-Never & 5-Always)*    
+I feel quite anxious and stressed most times for last few weeks or more. ( 1- No stress or anxiety and 5- Some level of stress and anxiety is always present)* This
+I have been struggling with brain fog. ( 1-No fog and 5- Most times )* This    
+I have been struggling to remember things and often forget the names of people. (1- No struggle and 5- Always struggle)*    
+Do you take Omega 3 tablets everyday OR do you eat 2 portions of oily fish weekly?*    
+Do you eat 2 portions of red meat a week OR take a daily supplement with at least 25mcg of vitamin B12 ?*    
+Practice Meditation or Mindfulness for at least 10 minutes per day?( 0- 7 days)*    
+Being active for 20 minutes or more per day. Activities can include walking, yoga, gym workouts etc. (0-7 days)*    
+Do you drink more than two liters of water per day? ( 0 -7 days)* This field is required.   
+Each day, ideally you should be drinking 2 to 3 liters of the water.   
+Do you drink two or more any alcoholic drinks per day? ( 0-7 days)*    
+Do you smoke any kind of tobacco in a day? ( 0-7 days)*    
+Do you take any kind of prescription medication for any disease? ( 0-7 days)*    
 How would you rate your sleep ( 1 is pretty unrestful & 5 is Excellent)* This 
-How connected do you feel with your friends or family? ( 1- Not connected and 5- Well connected)* 
-How healthy would you rate your food choices, particularly in relation to the brain? Eating fresh fruits, less sugar, good vitamin rich food helps the brain health. (1- Not good 5- Very good and healthy)* 
-Have you been diagnosed with Hypertension(High BP)* 
-Have you been diagnosed with heart issues?( Ischemic heart disease)* 
-Have you been diagnosed with high cholesterol? (Hyperlipidemia)* 
-Have you been diagnosed with Diabetes?(High sugar)* 
-I have been diagnosed with hearing loss or I believe I have some hearing loss* 
-Do you have concerns about the memory loss?* 
-Brain score assessment
-Final question- Considering all things, would you say your brain health is?* 
-Your score is 58/100
+How connected do you feel with your friends or family? ( 1- Not connected and 5- Well connected)*    
+How healthy would you rate your food choices, particularly in relation to the brain? Eating fresh fruits, less sugar, good vitamin rich food helps the brain health. (1- Not good 5- Very good and healthy)*    
+Have you been diagnosed with Hypertension(High BP)*    
+Have you been diagnosed with heart issues?( Ischemic heart disease)*    
+Have you been diagnosed with high cholesterol? (Hyperlipidemia)*    
+Have you been diagnosed with Diabetes?(High sugar)*    
+I have been diagnosed with hearing loss or I believe I have some hearing loss*    
+Do you have concerns about the memory loss?*    
+Brain score assessment   
+Final question- Considering all things, would you say your brain health is?*   
+Your score is 58/100  
             _____________________________________________________________________________________________________________________           
 
-# TRUST IN FAVOUR OF HINDU GODS-A tax unit
-https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx
+# TRUST IN FAVOUR OF HINDU GODS-A tax unit [https://www.incometaxparaskochar.com/resource/3TRUST%20IN%20FAVOUR%20OF%20HINDU%20GODS.aspx]
 
  - INTRODUCTION :- Indian public worship millions and millions of Gods and Goddesses and spend a huge amount for their worship and seva Puja. Every family worships his own God or Goddess either by constructing their own temples or without constructing temples in their houses. The expenses for the seva puja of Gods and Idols are not allowed to be setoff against regular income of the assessee. Contribution is also made for such gods by their devotees. The investment of such fund is also required to be made and income arising out of such investment is subject to Income Tax. Hence, it is advisable to create trusts for such deities and gods for the sake of proper tax planning.  
 
@@ -106,8 +103,8 @@ WEALTH TAX AND GIFT TAX: - As per Section 3 of Wealth Tax Act, 1957, Wealth tax 
 
 BUSINESS INCOME: - Such trusts can also carry sole proprietary business and can also become partners in partnership business through the trustees or shebaits. The deed of dedication should specify that trust can do business.
 
-CONCLUSION: - Those assessees who are very religious and are dedicated to gods and are spending heavy amount for Seva Puja and worship of family gods should create trusts for their family gods so that they can gradually create a good fund for future worship of such gods and the expenses incurred for the seva puja of family gods can be properly accounted for. There is no control of income tax department as regards investment, spending of income or registration of such trusts as in case of Charitable Trust.
+CONCLUSION: - Those assessees who are very religious and are dedicated to gods and are spending heavy amount for Seva Puja and worship of family gods should create trusts for their family gods so that they can gradually create a good fund for future worship of such gods and the expenses incurred for the seva puja of family gods can be properly accounted for. There is no control of income tax department as regards investment, spending of income or registration of such trusts as in case of Charitable Trust.  
             _____________________________________________________________________________________________________________________           
 
 # Benefits of Mango Ginger
-https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76
+[https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76  ]
