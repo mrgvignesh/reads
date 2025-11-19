@@ -1,3 +1,14 @@
+# Happy minds leads to successful life [Link](https://www.inc.com/minda-zetlin/happy-people-are-successful-according-to-science-heres-how-to-be-more-optimistic/91264103?utm_source=firefox-newtab-en-intl)
+Optimistic students do better.
+
+The students who felt optimistic and expected to do well on the test did indeed do better, on average, than those who felt pessimistic. All the students may have had some idea from how the term had gone up till then whether they were likely to do well or not. But, importantly, the optimistic students also studied more. They expected that their grade was at least partly in their control, and they acted accordingly. It became a self-fulfilling prophecy. It’s a perfect example of how optimism can contribute to success.
+
+In a second study, the team surveyed 182 medical students about how they were feeling as they waited to be matched with residency programs. Then researchers surveyed the students again after they learned which residency, if any, they’d been matched with. Not surprisingly, those who felt optimistic that they’d be matched with their first choice were happier and less stressed than those who were pessimistic about it. The optimistic students were also likelier to be right. More of them got matched with their first choice than the non-optimistic students.
+1. Start a gratitude practice.
+2. Imagine your best possible self.
+3. Surround yourself with optimists.
+           _____________________________________________________________________________________________________________________  
+   
 # Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten [Link](https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930)
 
 - Interleaving can help you learn several subjects or skills in succession. 
