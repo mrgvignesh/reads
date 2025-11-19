@@ -2,7 +2,7 @@
 Optimistic students do better.
 
 The students who felt optimistic and expected to do well on the test did indeed do better, on average, than those who felt pessimistic. All the students may have had some idea from how the term had gone up till then whether they were likely to do well or not. But, importantly, the optimistic students also studied more. They expected that their grade was at least partly in their control, and they acted accordingly. It became a self-fulfilling prophecy. It’s a perfect example of how optimism can contribute to success.
-
+https://github.com/mrgvignesh/reads/edit/main/README.md
 In a second study, the team surveyed 182 medical students about how they were feeling as they waited to be matched with residency programs. Then researchers surveyed the students again after they learned which residency, if any, they’d been matched with. Not surprisingly, those who felt optimistic that they’d be matched with their first choice were happier and less stressed than those who were pessimistic about it. The optimistic students were also likelier to be right. More of them got matched with their first choice than the non-optimistic students.
 1. Start a gratitude practice.
 2. Imagine your best possible self.
@@ -119,3 +119,8 @@ CONCLUSION: - Those assessees who are very religious and are dedicated to gods a
 
 # Benefits of Mango Ginger
 [Paper](https://rjptonline.org/HTMLPaper.aspx?Journal=Research%20Journal%20of%20Pharmacy%20and%20Technology;PID=2024-17-3-76  )
+
+# Benefits of ashwangandha [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9297375/#hsr2741-sec-0310)
+In this 8‐week randomized, double‐blind, placebo‐controlled study, we investigated the aphrodisiac property of an ashwagandha root extract in adult males. Fifty participants with lower sexual desire were randomly allocated to take 300 mg of ashwagandha root extract or placebo capsules twice daily. Outcomes were measured using the derogatis interview for sexual functioning‐male (DISF‐M) questionnaire, serum testosterone, serum prolactin, and short‐form survey—36 quality of life questionnaire before and after the intervention.
+            _____________________________________________________________________________________________________________________           
+            
