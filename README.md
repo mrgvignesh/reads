@@ -15,7 +15,7 @@ In a second study, the team surveyed 182 medical students about how they were fe
 - Reconsolidation can help you transfer short-term memories to long-term memory.
 - Exercise can help you improve your ability to learn something new.
 - Sleep can help you remember more and for longer.  
-            _____________________________________________________________________________________________________________________           
+            _____________________________________________________________________________________________________________________
 
 # Why Good People Get Betrayed: The Gita’s Harsh Truth
 Betrayal feels like a knife to the soul, especially when you’ve done nothing but give love, help, or loyalty. The common belief is that good people deserve good treatment. But the Gita challenges this romantic ideal. Lord Krishna makes it clear: the universe doesn’t operate on emotional logic. It operates on karma, awareness, and duty (dharma). If you’re good but unaware, kind but overly attached, you're not protected , you’re vulnerable. Here’s why betrayal happens to good people, and what the Gita wants you to understand about it.
@@ -122,5 +122,9 @@ CONCLUSION: - Those assessees who are very religious and are dedicated to gods a
 
 # Benefits of ashwangandha [Paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC9297375/#hsr2741-sec-0310)
 In this 8‐week randomized, double‐blind, placebo‐controlled study, we investigated the aphrodisiac property of an ashwagandha root extract in adult males. Fifty participants with lower sexual desire were randomly allocated to take 300 mg of ashwagandha root extract or placebo capsules twice daily. Outcomes were measured using the derogatis interview for sexual functioning‐male (DISF‐M) questionnaire, serum testosterone, serum prolactin, and short‐form survey—36 quality of life questionnaire before and after the intervention.
+            _____________________________________________________________________________________________________________________                      
+
+# Betel leaf hair oil [Link](https://ijprajournal.com/issue_dcp/Formulation%20and%20Development%20of%20Herbal%20hair%20oil%20using%20Betel%20Leaf.pdf)
+Try this homemade pack for healthy hair. Betel leaves are not just for treating hair loss or fall. They can be used for treating other hair problems as wel
+
             _____________________________________________________________________________________________________________________           
-            
