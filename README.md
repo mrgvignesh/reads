@@ -7,7 +7,19 @@ In a second study, the team surveyed 182 medical students about how they were fe
 1. Start a gratitude practice.
 2. Imagine your best possible self.
 3. Surround yourself with optimists.
-           _____________________________________________________________________________________________________________________  
+           _____________________________________________________________________________________________________________________
+
+# Gratitude Transforms Our Physical and Mental Health [Link](https://time.com/7334526/thanksgiving-gratitude-mental-health/)
+
+   When we focus on what’s right in our lives instead of what’s wrong, we quiet the emotional centers of the brain and strengthen the judgment and decision-making areas. In other words, gratitude helps balance our brains. Research has found that people who regularly express thankfulness are physically healthier, more optimistic, and better at achieving their goals. They sleep better, experience less stress, and enjoy deeper relationships.That’s not because they say “thank you” more often, it’s because they live with a mindset of appreciation. Gratitude isn’t just good manners; it’s good neuroscience. It shifts our focus from what’s missing to what’s meaningful. It reminds us that even in hardship, there’s something to be thankful for.
+
+   Like all good habits, this doesn’t happen overnight. Gratitude is something we cultivate one intentional practice at a time. That might mean unplugging for a few hours to rest and reset, journaling about what went right in your day, or taking a moment to tell someone you appreciate them. These small acts retrain your brain toward positivity and resilience.It’s easy to sleep less than is optimal, eat in rush mode, scroll when our minds are tired, and assume that’s just life. But neuroimaging shows that those habits light up the worry circuits and dampen the reward circuits of the brain. I’ve seen scans where people are stuck on the “threat” pattern instead of the “thankful” pattern. To shift that requires intention and repetition. Every night, recount the things you’re grateful for. Over time, those nightly reminders anchor a healthier brain pattern. One that is calmer, clearer and more aligned.People attempt to fill their emptiness by doom scrolling or spending their money. But none of that satisfies in the way that gratitude does. When we take time to notice the blessings in our lives, or serve others who have less, our perspective shifts. The brain’s reward centers light up. Our stress hormones drop. We start to feel connected again.
+
+Of course, the holidays aren’t easy for everyone. For some, this season brings memories of loss, loneliness, or unmet expectations. It’s easy to let bitterness or disappointment steal our joy. But the brain follows where we focus. If we dwell on what’s wrong, we strengthen those pathways. If we choose gratitude, we rewire our minds for peace and hope.
+
+But, gratitude goes beyond psychology and touches something deeper in our spirit. This is why all major religions emphasize the importance of gratitude. It is not about ignoring struggle, but rooting our minds in something outside of our circumstances.
+
+           _____________________________________________________________________________________________________________________
    
 # Neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten [Link](https://www.inc.com/jeff-haden/neuroscience-says-this-is-how-to-remember-things-you-think-youve-forgotten/91226930)
 
