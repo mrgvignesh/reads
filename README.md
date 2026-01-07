@@ -68,33 +68,68 @@ Help people, but don’t become addicted to being the rescuer. Build your own li
 Krishna’s wisdom is clear: act without attachment to results. Apply it here, help without clinging, love without bargaining, give without demanding permanence. That doesn’t mean you become cold or stop caring. It means you choose to give as an act of integrity, not as a transaction.The highest freedom is when you can look at someone who left, smile, and think, I gave them my best. What they did with it is theirs, not mine. That is strength no betrayal can touch.  
             _____________________________________________________________________________________________________________________           
 
-# Brain Fitness Score [Link](https://form.jotform.com/232184893262057)
-BMI (Body Mass Index)*    
-Describe your energy levels by moving the scale between 1 to 5. I have been full of energy for the entire week.(1- Not at all, 5- On top Energy)* 
-Describe how often do you get distracted. I get easily distracted.( 1-Never & 5-Always)*    
-I feel quite anxious and stressed most times for last few weeks or more. ( 1- No stress or anxiety and 5- Some level of stress and anxiety is always present)* This
-I have been struggling with brain fog. ( 1-No fog and 5- Most times )* This    
-I have been struggling to remember things and often forget the names of people. (1- No struggle and 5- Always struggle)*    
-Do you take Omega 3 tablets everyday OR do you eat 2 portions of oily fish weekly?*    
-Do you eat 2 portions of red meat a week OR take a daily supplement with at least 25mcg of vitamin B12 ?*    
-Practice Meditation or Mindfulness for at least 10 minutes per day?( 0- 7 days)*    
-Being active for 20 minutes or more per day. Activities can include walking, yoga, gym workouts etc. (0-7 days)*    
-Do you drink more than two liters of water per day? ( 0 -7 days)* This field is required.   
-Each day, ideally you should be drinking 2 to 3 liters of the water.   
-Do you drink two or more any alcoholic drinks per day? ( 0-7 days)*    
-Do you smoke any kind of tobacco in a day? ( 0-7 days)*    
-Do you take any kind of prescription medication for any disease? ( 0-7 days)*    
-How would you rate your sleep ( 1 is pretty unrestful & 5 is Excellent)* This 
-How connected do you feel with your friends or family? ( 1- Not connected and 5- Well connected)*    
-How healthy would you rate your food choices, particularly in relation to the brain? Eating fresh fruits, less sugar, good vitamin rich food helps the brain health. (1- Not good 5- Very good and healthy)*    
-Have you been diagnosed with Hypertension(High BP)*    
-Have you been diagnosed with heart issues?( Ischemic heart disease)*    
-Have you been diagnosed with high cholesterol? (Hyperlipidemia)*    
-Have you been diagnosed with Diabetes?(High sugar)*    
-I have been diagnosed with hearing loss or I believe I have some hearing loss*    
-Do you have concerns about the memory loss?*    
-Brain score assessment   
-Final question- Considering all things, would you say your brain health is?*   
+# Brain Fitness Score [Link](https://form.jotform.com/232184893262057)# Health and Brain Score Assessment
+
+Please complete the following questionnaire by selecting the most accurate response for each field.
+
+## Physical Metrics & Vital Signs
+* **BMI (Body Mass Index)**: `[________]`
+* **Hypertension**: Have you been diagnosed with High BP?  
+  *(Yes / No)*
+* **Heart Issues**: Have you been diagnosed with Ischemic heart disease?  
+  *(Yes / No)*
+* **Cholesterol**: Have you been diagnosed with High cholesterol (Hyperlipidemia)?  
+  *(Yes / No)*
+* **Diabetes**: Have you been diagnosed with Diabetes (High sugar)?  
+  *(Yes / No)*
+
+---
+
+## Energy & Cognitive Function
+*Rate these based on your experience over the last few weeks.*
+
+| Question | Scale (1 to 5) |
+| :--- | :--- |
+| **Energy Levels:** I have been full of energy for the entire week. | (1- Not at all | 5- Top energy) |
+| **Distraction:** I get easily distracted. | (1- Never | 5- Always) |
+| **Stress/Anxiety:** I feel anxious/stressed most times. | (1- No stress | 5- Constant stress) |
+| **Brain Fog:** I have been struggling with brain fog. | (1- No fog | 5- Most times) |
+| **Memory:** I struggle to remember things/names. | (1- No struggle | 5- Always struggle) |
+
+---
+
+## Nutrition & Supplementation
+* **Omega 3**: Do you take Omega 3 tablets everyday OR eat 2 portions of oily fish weekly?  
+  *(Yes / No)*
+* **Vitamin B12**: Do you eat 2 portions of red meat a week OR take a daily supplement (min 25mcg)?  
+  *(Yes / No)*
+* **Hydration**: Do you drink more than two liters of water per day?  
+  *(0-7 days)* > *Note: Ideally, you should be drinking 2 to 3 liters of water each day.*
+
+---
+
+## Daily Habits & Lifestyle
+*How many days per week (0-7) do you perform the following?*
+
+* **Meditation/Mindfulness**: (At least 10 minutes per day) `[____] days`
+* **Physical Activity**: (20+ minutes of walking, yoga, gym, etc.) `[____] days`
+* **Alcohol**: Do you drink two or more alcoholic drinks per day? `[____] days`
+* **Smoking**: Do you smoke any kind of tobacco in a day? `[____] days`
+* **Medication**: Do you take prescription medication for any disease? `[____] days`
+
+---
+
+## Wellbeing & Environment
+* **Sleep Quality**: (1- Pretty unrestful | 5- Excellent) `[____]`
+* **Social Connection**: (1- Not connected | 5- Well connected) `[____]`
+* **Food Choices**: How healthy is your "brain food" (fruit, low sugar, vitamins)? (1- Not good | 5- Very good) `[____]`
+* **Hearing**: Diagnosed hearing loss or suspected hearing loss? *(Yes / No)*
+* **Memory Concerns**: Do you have specific concerns about memory loss? *(Yes / No)*
+
+---
+
+## Final Brain Score Assessment
+**Considering all things, how would you rate your overall brain health?** `[________________________________________________]`
 Your score is 58/100  
             _____________________________________________________________________________________________________________________           
 
