@@ -29,6 +29,57 @@ But, gratitude goes beyond psychology and touches something deeper in our spirit
 - Sleep can help you remember more and for longer.  
             _____________________________________________________________________________________________________________________
 
+# Gita Teachings: The Three Gunas That Shape Human Personality
+
+In the **Bhagavad Gita**, Lord Krishna explains that all material nature is governed by three "Gunas" (modes or qualities). These forces—**Sattva**, **Rajas**, and **Tamas**—interact to shape our personality, behavior, and outlook on life. Understanding these Gunas helps in achieving self-awareness and spiritual growth.
+
+---
+
+## 1. Sattva (The Mode of Goodness)
+**Sattva** is the quality of balance, harmony, and purity. It is characterized by clarity of thought, wisdom, and peace.
+
+* **Characteristics:** Kindness, discipline, selflessness, and a thirst for knowledge.
+* **Impact:** When Sattva predominates, a person experiences joy, enlightenment, and a sense of connection to the divine.
+* **Goal:** To cultivate Sattva to transcend the lower impulses of the mind.
+
+## 2. Rajas (The Mode of Passion)
+**Rajas** is the quality of energy, action, and change. It is driven by desire, attachment, and the pursuit of results.
+
+* **Characteristics:** Ambition, restlessness, intense effort, and greed.
+* **Impact:** While Rajas drives productivity, it often leads to stress, anxiety, and a never-ending cycle of wanting more.
+* **Goal:** To channel Rajasic energy into selfless service (*Karma Yoga*) rather than selfish gain.
+
+## 3. Tamas (The Mode of Ignorance)
+**Tamas** is the quality of imbalance, disorder, and inertia. It is the lowest of the three Gunas and obscures one's true nature.
+
+* **Characteristics:** Laziness, delusion, excessive sleep, and negligence.
+* **Impact:** Tamas binds the soul to darkness and stagnation, preventing any form of growth or understanding.
+* **Goal:** To overcome Tamas through discipline (*Rajas*) and eventually elevate the mind to *Sattva*.
+
+---
+
+### The Dynamic of the Gunas
+According to the Gita, no human is purely one Guna. Instead, we are a shifting mixture of all three. The ultimate goal of a seeker is to move from **Tamas** to **Rajas**, from **Rajas** to **Sattva**, and finally to become **Gunatita**—one who has transcended all three modes to achieve liberation (*Moksha*).
+
+> "When the light of wisdom shines through the entire body, then one may know that the mode of goodness (Sattva) is prevailing." — **Bhagavad Gita, Chapter 14**
+
+---
+
+### Sources and Further Reading
+* [The Bhagavad Gita - Chapter 14: The Three Gunas (Gita Journey)](https://www.holy-bhagavad-gita.org/chapter/14)
+* [Philosophy of the Gunas (Wikipedia)](https://en.wikipedia.org/wiki/Gu%E1%B9%87a)
+
+---
+**Summary Table**
+
+| Guna | Nature | Result |
+| :--- | :--- | :--- |
+| **Sattva** | Purity / Light | Happiness & Wisdom |
+| **Rajas** | Passion / Action | Greed & Restlessness |
+| **Tamas** | Darkness / Inertia | Delusion & Sloth |
+            _____________________________________________________________________________________________________________________           
+
+
 # Why Good People Get Betrayed: The Gita’s Harsh Truth
 Betrayal feels like a knife to the soul, especially when you’ve done nothing but give love, help, or loyalty. The common belief is that good people deserve good treatment. But the Gita challenges this romantic ideal. Lord Krishna makes it clear: the universe doesn’t operate on emotional logic. It operates on karma, awareness, and duty (dharma). If you’re good but unaware, kind but overly attached, you're not protected , you’re vulnerable. Here’s why betrayal happens to good people, and what the Gita wants you to understand about it.
 
