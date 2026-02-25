@@ -1,257 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+  </script>
+
 <head>
-    <meta charset="UTF-8">
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-    <style>
-        body { font-family: 'Courier New', monospace; background-color: #0b0e14; color: #00ff41; padding: 20px; }
-        .challenge-card { border: 1px solid #00ff41; padding: 20px; margin-bottom: 40px; border-radius: 8px; background: rgba(0, 255, 65, 0.05); }
-        h2 { text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #00ff41; }
-        .task { color: #fff; font-weight: bold; margin-bottom: 15px; }
-        .options { color: #888; font-size: 0.9em; }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Martin Hutten – Career Knowledge Graph (Ice Breaker)</title>
+  <style>
+
+<style>
+    body {
+      font-family: 'Courier New', monospace;
+      background: #0d1117;
+      color: #c9d1d9;
+      margin: 0;
+      padding: 40px;
+      line-height: 1.6;
+    }
+.ladder {
+      max-width: 700px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .step {
+      position: relative;
+      margin: 50px 0;
+      padding: 20px;
+      background: #161b22;
+      border-radius: 8px;
+      border: 2px solid #238636;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      text-align: left;
+    }
+    .step::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      left: 50%;
+      width: 4px;
+      height: 50px;
+      background: #238636;
+      transform: translateX(-50%);
+    }
+    .step:first-child::before { display: none; }
+    .step-year {
+      font-size: 18px;
+      font-weight: bold;
+      color: #58a6ff;
+      margin-bottom: 8px;
+    }
+    .step-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .step-desc {
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .noise .step {
+      border-color: #6e7681;
+    }
+    .noise .step::before {
+      background: #6e7681;
+    }
+    .noise .step-year {
+      color: #8b949e;
+    }
+    .mermaid {
+      max-width: 1000px;
+      margin: 0 auto;
+      background: #161b22;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    h1 {
+      text-align: center;
+      color: #58a6ff;
+      margin-bottom: 40px;
+    }
+    .git-log {
+      max-width: 900px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .branch {
+      position: relative;
+      padding-left: 60px;
+    }
+    .commit {
+      position: relative;
+      margin: 30px 0;
+      padding: 15px;
+      border-left: 4px solid #238636;
+      background: #161b22;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    }
+    .commit::before {
+      content: '*';
+      position: absolute;
+      left: -32px;
+      top: 18px;
+      font-size: 24px;
+      color: #238636;
+    }
+    .commit-hash {
+      font-size: 13px;
+      color: #8b949e;
+      margin-bottom: 4px;
+    }
+    .commit-date {
+      font-size: 14px;
+      color: #58a6ff;
+      font-weight: bold;
+    }
+    .commit-msg {
+      font-size: 15px;
+      margin: 6px 0;
+    }
+    .commit-branch {
+      font-size: 13px;
+      color: #79c0ff;
+      font-style: italic;
+    }
+    .noise .commit {
+      border-left-color: #6e7681;
+      background: #21262d;
+    }
+    .noise .commit::before {
+      color: #6e7681;
+    }
+    .branch-line {
+      position: absolute;
+      left: 28px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: #238636;
+    }
+    .merge {
+      border-left-color: #8957e5 !important;
+    }
+    .merge::before {
+      content: 'M';
+      color: #8957e5;
+    }
+
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #004d99; /* Philips blue-ish */
+    }
+    .timeline {
+      position: relative;
+      max-width: 1100px;
+      margin: 60px auto;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 6px;
+      background: linear-gradient(to right, #004d99, #00a3e0);
+      z-index: 1;
+    }
+    .node-container {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 2;
+    }
+    .node {
+      flex: 1;
+      text-align: center;
+      position: relative;
+      padding: 0 10px;
+    }
+    .node-circle {
+      width: 110px;
+      height: 110px;
+      background: white;
+      border: 4px solid #004d99;
+      border-radius: 50%;
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 1.3;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      transition: all 0.2s;
+    }
+    .node:hover .node-circle {
+      transform: scale(1.08);
+      border-color: #e60000;
+    }
+    .node-year {
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #004d99;
+    }
+    .real {
+      background: #e6f3ff;
+      border-color: #0066cc;
+    }
+    .noise {
+      background: #f0f0f0;
+      border-color: #aaa;
+      opacity: 0.75;
+    }
+  </style>
 </head>
 <body>
 
-    <h1>📡 SIGNAL VS. NOISE: TEAM DECODER</h1>
+<h1> Spot the white noise! </h1> 
+  <h1>Martin </h1>
 
-    <div class="challenge-card">
-        <h2>01. Martin Hutten</h2>
-        <p class="task">TASK: Identify the "White Noise" (The False Claim)</p>
-        <div class="mermaid">
-            pie title Experience Distribution
-                "User Experience Research" : 45
-                "Philips Design Strategy" : 30
-                "Human Factors Engineering" : 20
-                "Professional Skydiving Instructor" : 5
-        </div>
-        <p class="options">Options: [A] UX Research | [B] Strategy | [C] Human Factors | [D] Skydiving</p>
+  <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 2 -->
+      <div class="node">
+        <div class="node-year">~1993–2010+</div>
+        <div class="node-circle real">25+ years Philips: Supply Planning Director, Master Black Belt, Lean/SCM Consultant</div>
+      </div>
+
+      <!-- Real 3 -->
+      <div class="node">
+        <div class="node-year">~2015–2023</div>
+        <div class="node-circle real">Digital Practice Lead – Supply Chain Management Philips Engineering Solutions</div>
+      </div>
+
+      <!-- Real 4 -->
+      <div class="node">
+        <div class="node-year">2023–present</div>
+        <div class="node-circle real">Senior Consultant Data & AI at Philips, Eindhoven</div>
+      </div>
+
+
+      <!-- Noise 8 (extra for more mix) -->
+      <div class="node">
+        <div class="node-year">—</div>
+        <div class="node-circle ">Avid marathon runner (10+ Eindhoven marathons)</div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+<h1>Ad denissen </h1>
+
+  <div class="git-log">
+
+    <div class="branch">
+      <div class="branch-line"></div>
+
+      <!-- Commit 1: Education / Initial commit -->
+      <div class="commit noise">
+        <div class="commit-hash">commit e8f4a2b1c9d3e5f67890abcdef1234567890abcd</div>
+        <div class="commit-msg">Initial commit: TU/e Industrial Design Engineering (Ir.)</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Commit 2: Long Philips tenure – EEG/Neurofeedback R&D -->
+      <div class="commit noise">
+        <div class="commit-hash">commit 7b9d3e2f1a4c5d6789fedcba0987654321fe dcba</div>
+        <div class="commit-msg">feat(brain): Decades of Philips Research – EEG, neurofeedback, biofeedback systems & cognitive task R&D</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Noise commit – distractor -->
+      <div class="commit noise">
+        <div class="commit-hash">commit a1b2c3d4e5f67890abcdef1234567890ghijkl</div>
+        <div class="commit-msg"><i>part: MR machine designs</i> </div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Commit 3: Current role + publications impact -->
+      <div class="commit noise">
+        <div class="commit-hash">commit f0e1d2c3b4a5968778890abcdeffedcba9876543</div>
+        <div class="commit-msg">refactor(architecture): Principal System Architect – Brain, Body & Behavior group @ Philips Research Eindhoven; 14+ pubs, 246+ citations in neuro/EEG</div>
+      </div>
+
     </div>
 
-    <div class="challenge-card">
-        <h2>02. Dita Larasati</h2>
-        <p class="task">TASK: Pattern Recognition - Sequence her career path (Chronological)</p>
-        <div class="mermaid">
-            graph LR
-                A[Design Thinking Lead] --- B[IT Project Manager]
-                B --- C[Technical Consultant]
-                C --- D[Business Process Analyst]
-        </div>
-        <p class="options">Identify the sequence: (e.g., B-D-C-A)</p>
+  </div>
+
+
+<h1>Joyca  </h1>
+
+  <div class="mermaid">
+    timeline 
+
+      Early 2000s : Phd "Thesis on situated cognition & behavior"
+             
+      2008 : "Start of long tenure in digital engagement, cognition & behavior in Philips"  
+             "Brought attention to healthy living such as food intake and physical activity, medication adherence in chronically ill, and patient and professionals use of telehealth solutions"
+
+      2010s-2020s : "Publications on behavior change, patient motivation, COPD/asthma rehab, AI-adjacent healthcare"
+
+  </div>
+
+
+
+<h1>Find the Anamoly</h1>
+
+<h1>Ramil</h1>
+
+  <div class="git-log">
+
+    <div class="branch">
+      <div class="branch-line"></div>
+
+      <!-- Commit 1: Education / Initial commit -->
+      <div class="commit noise">
+        <div class="commit-hash">commit a1b2c3d4e5f67890abcdef1234567890init</div>
+        <div class="commit-msg">Initial commit: strong foundation in CS/Data/AI for real-world engineering</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Commit 2: Philips career start / building platforms -->
+      <div class="commit noise">
+        <div class="commit-hash">commit 4f5g6h7i8j9k0lmnopqrstuvwxyz123456</div>
+        <div class="commit-msg">feat(data): Joined Philips Eindhoven – designing & building scalable data platforms for healthcare challenges</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Noise commit – distractor -->
+      <div class="commit noise">
+        <div class="commit-hash">commit xyz987654321fedcba0987654321noise</div>
+        <div class="commit-msg">docs: adversarial attacks protection methods in Computer Vision, which resulted in several patent applications.</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
+      <!-- Commit 3: Current role – AI solutions focus -->
+      <div class="commit noise">
+        <div class="commit-hash">commit e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4</div>
+        <div class="commit-msg">refactor(ai): Principal/Lead role @ Philips – engineering AI solutions & data platforms to solve real-world healthcare problems in Eindhoven</div>
+        <div class="commit-branch">(main)</div>
+      </div>
+
     </div>
 
-    <div class="challenge-card">
-        <h2>03. Ad Denissen</h2>
-        <p class="task">TASK: Identify the "White Noise" in his Tech Stack</p>
-        <div class="mermaid">
-            graph TD
-                AD((Ad Denissen)) --> Real1[Software Architecture]
-                AD --> Real2[Consumer Electronics]
-                AD --> Noise[Lead Developer for TikTok Algorithm]
-                AD --> Real3[Agile/Scrum Leadership]
-        </div>
-        <p class="options">Which node is the glitch? A, B, or C?</p>
+  </div>
+
+
+<h1>Dita </h1>
+
+  <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-year">Specialized</div>
+        <div class="node-circle real">Behavioral Economics & Data science Erasmus School & Tilburg University</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-year">2015</div>
+        <div class="node-circle ">Started as Junior Market Researcher at Unilever Indonesia</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-year">~2020–present</div>
+        <div class="node-circle real">Data & Business Analyst – Data Engineering, UX Research/Analytics & AI at Philips</div>
+      </div>
+
+      <!-- Real 3: Specialization focus -->
+      <div class="node">
+        <div class="node-year">Current</div>
+        <div class="node-circle real">Specializing in Data Science, AI Engineering & User Experience Analytics – Philips, Tilburg area</div>
+      </div>
+
+    </div>
+  </div>
+
+
+<h1>Elisa Canzani – Career Ladder (spot the 3 real steps!)</h1>
+
+  <div class="ladder">
+
+    <!-- Step 1: PhD / Research foundation -->
+    <div class="step noise">
+      <div class="step-title">Phd </div>
+      <div class="step-desc">Advanced research in data science, optimization, and AI foundations (Bundeswehr University Munich background), setting stage for healthcare/life sciences impact.</div>
     </div>
 
-    <div class="challenge-card">
-        <h2>04. Joyca Lacroix</h2>
-        <p class="task">TASK: Un-jumble the Research Timeline</p>
-        <div class="mermaid">
-            timeline
-                title Career Commits
-                A : Senior Scientist & Behavior Change
-                B : PhD Candidate @ TU/e
-                C : Research Scientist @ Philips
-        </div>
-        <p class="options">Correct Order: [1] A-B-C | [2] B-C-A | [3] C-B-A</p>
+    <!-- Step 2: Industry transition (Cognizant era) -->
+    <div class="step noise">
+      <div class="step-title">Digital Twins </div>
+      <div class="step-desc">Hands-on leadership in clinical risk prediction, omics data, clinical trials optimization, bioprocess digital twins, anomaly detection agents, causal AI – co-authored on Agentic AI in life sciences (Cognizant/Microsoft collab).</div>
     </div>
 
-    <div class="challenge-card">
-        <h2>05. Elisa Canzani</h2>
-        <p class="task">TASK: Spot the False Specialty</p>
-        <div class="mermaid">
-            mindmap
-              root((Elisa))
-                UX Design
-                Cognitive Psychology
-                Industrial Design
-                Blockchain Mining
-        </div>
-        <p class="options">Identify the outlier.</p>
+    <!-- Noise step – distractor -->
+    <div class="step noise">
+      <div class="step-title">Entrepreneur</div>
+      <div class="step-desc"><i>Co-founder of the start-up “Commodify”.</i></div>
     </div>
 
-    <div class="challenge-card">
-        <h2>06. Merijn van der Roest</h2>
-        <p class="task">TASK: Sequence the Business Growth</p>
-        <div class="mermaid">
-            stateDiagram-v2
-                State1: Business Development
-                State2: Co-Founder Role
-                State3: Account Management
-                State1 --> State2
-                State2 --> State3
-        </div>
-        <p class="options">Is this sequence Real or Jumbled?</p>
-    </div>
-
-    <div class="challenge-card">
-        <h2>07. Privender Saini</h2>
-        <p class="task">TASK: Identify the fake Career Milestone</p>
-        <div class="mermaid">
-            gitGraph
-                commit id: "A: Software Engineering"
-                commit id: "B: Project Management"
-                commit id: "C: Professional Cricket Player"
-                commit id: "D: Delivery Lead"
-        </div>
-    </div>
-
-    <div class="challenge-card">
-        <h2>08. Manfred Dasselaar</h2>
-        <p class="task">TASK: Arrange by Seniority</p>
-        <div class="mermaid">
-            graph BT
-                A[Senior Director]
-                B[Program Manager]
-                C[Systems Engineer]
-        </div>
-        <p class="options">Order from Start to Present: C-B-A?</p>
-    </div>
-
-    <div class="challenge-card">
-        <h2>09. Boris de Ruyter</h2>
-        <p class="task">TASK: Spot the Fake Academic Honor</p>
-        <ul style="list-style: none;">
-            <li>(A) Principal Scientist at Philips Research</li>
-            <li>(B) Professor at Leiden University</li>
-            <li>(C) Winner of the 2022 Nobel Prize in Physics</li>
-            <li>(D) Expert in Persuasive Technology</li>
-        </ul>
-    </div>
-
-    <div class="challenge-card">
-        <h2>10. Benedicte van Houtert</h2>
-        <p class="task">TASK: Un-jumble the Logic Flow</p>
-        <div class="mermaid">
-            graph TD
-                A[Strategic Design] --> B[Creative Leadership]
-                B --> C[Design Management]
-        </div>
-        <p class="options">Identify the chronological "Pattern".</p>
-    </div>
+  </div>
 
 
-    <div class="card">
-        <h2>11. Caspar Wijffels</h2>
-        <div class="task-box">TASK: Spot the "Requirement" that doesn't exist in his career history.</div>
-        <div class="mermaid">
-            requirementDiagram
-                requirement r1 { id: 1 text: UX Design Strategy }
-                requirement r2 { id: 2 text: Design Management }
-                requirement r3 { id: 3 text: Professional Chef @ Michelin Star }
-                requirement r4 { id: 4 text: Philips Innovation Lead }
-                
-                element user { type: person }
-                user - satisfies -> r1
-                user - satisfies -> r2
-                user - satisfies -> r3
-                user - satisfies -> r4
-        </div>
-        <p class="options">Identify the False Requirement: 1, 2, 3, or 4?</p>
-    </div>
 
-    <div class="card">
-        <h2>12. Robin T. Groen</h2>
-        <div class="task-box">TASK: Pattern Recognition - Is the "Impact Flow" correct?</div>
-        <div class="mermaid">
-            erDiagram
-                UX-RESEARCHER ||--o{ PRODUCT-STRATEGY : influences
-                PRODUCT-STRATEGY ||--o{ USER-GROWTH : drives
-                USER-GROWTH ||--o{ REVENUE : generates
-        </div>
-        <p class="options">Sequence: (A) Correct Pattern | (B) Jumbled Logic</p>
-    </div>
+<h1>Deep fakes!</h1>
 
-    <div class="card">
-        <h2>13. Abhishek Kumar Singh</h2>
-        <div class="task-box">TASK: Find the "Noise" (The Fake Tech Skill).</div>
-        <div class="mermaid">
-            mindmap
-              root((Abhishek))
-                Data Engineering
-                Cloud Architecture
-                Quantum Teleportation Lead
-                Big Data Analytics
-        </div>
-        <p class="options">Which node contains White Noise?</p>
-    </div>
+<h1>Manfred - Summer was a matter of life and death </h1>
 
-    <div class="card">
-        <h2>14. Lolik (Luc)</h2>
-        <div class="task-box">TASK: Reconstruct the Timeline Pattern (Oldest to Newest).</div>
-        <div class="mermaid">
-            graph TD
-                A[A: Senior UX Designer]
-                B[B: Visual Design Intern]
-                C[C: Creative Director]
-        </div>
-        <p class="options">Sequence: [1] B-A-C | [2] A-B-C | [3] C-B-A</p>
-    </div>
 
-    <div class="card">
-        <h2>15. Privender Saini</h2>
-        <div class="task-box">TASK: Identify the "Non-Standard" career branch.</div>
-        <div class="mermaid">
-            pie title Time Allocation
-                "Agile Delivery" : 40
-                "Program Management" : 30
-                "Deep Sea Salvage" : 20
-                "Software Engineering" : 10
-        </div>
-        <p class="options">Which slice is pure fiction?</p>
-    </div>
+<h1>Caspar - What we see here is a little flowery plant called the alpenpapaver in dutch or alpine poppy in english which is a specialist of calcareous (limestone), rocky alpine habitats (2000+ meters altitude) with very little soil. It was -and is- very pleasant and energizing to hike in these habitats around this little plant which is also exactly what we did during our holidays.
+</h1>
 
-    <div class="card">
-        <h2>16. Manfred Dasselaar</h2>
-        <div class="task-box">TASK: Spot the "Glitch in the Matrix" node.</div>
-        <div class="mermaid">
-            graph LR
-                M((Manfred)) --- Tech[Program Management]
-                M --- Ind[Healthcare Tech]
-                M --- Fake[Undercover Intelligence Officer]
-                M --- Real[System Engineering]
-        </div>
-    </div>
+<h1>Benedicte - My new “ I-statement” </h1>
 
-    <div class="card">
-        <h2>17. Boris de Ruyter</h2>
-        <div class="task-box">TASK: Identify the Pattern (Professional vs Academic).</div>
-        <div class="mermaid">
-            classDiagram
-                class Boris {
-                    +Principal Scientist
-                    +Professor of Media Psychology
-                    +Olympic Gold Medalist
-                }
-        </div>
-        <p class="options">Which "Method" is a fabrication?</p>
-    </div>
 
-    <div class="card">
-        <h2>18. Benedicte van Houtert</h2>
-        <div class="task-box">TASK: Complete the Pattern. What comes next?</div>
-        <div class="mermaid">
-            stateDiagram-v2
-                [*] --> DesignConsultant
-                DesignConsultant --> CreativeLead
-                CreativeLead --> DesignManager
-                DesignManager --> ???
-        </div>
-        <p class="options">Option: [A] Strategic Design Leader | [B] Professional Poker Player</p>
-    </div>
 
-    <script>
-        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
-    </script>
+
+
+<h1>Annontate</h1>
+
+  <div class="mermaid">
+    timeline
+            
+
+     ~2010s : ? → Human-centered innovation & health tech publications (Philips Health Watch 2016, pregnancy monitors 2018)
+
+     ~2010s : ? → 20+ years in data/AI/enterprise transformation (articles on master data & change mgmt ~2016–2017)      
+
+     ~2020s : ? → Principal Scientist / Fellow @ Philips – leading human-centered AI, behavior & experience research
+
+     ~2020s : ? → Senior Consultant Data & AI Solutions / Industry 4.0  Philips Engineering Solutions
+                  "Transforming organizations to data-driven, Lean Six Sigma, system engineering, process optimization"
+
+            
+  </div>
+
+ <body>Paul,Marinka,Rob,Merijn</body>
+	
+
+<div class="mermaid">
+    timeline
+
+      1990s
+        : ? 
+        : From experimental psychology background → early work on user experience & ambient intelligence
+        "Publications on user modeling, adherence in behavior change systems"
+ 
+
+      2010s
+        : ?
+        : Contributions to human-centered design, digital engagement, cognition & behavior
+        "Human-centered AI & behavior"
+      
+     2020s
+        :?
+        : Turn data into clear insights,automation with Databricks, Alteryx, and Power BI
+
+
+  </div>
+ <body>Boris,Shalu,Afifa</body>
+
+
+
+  <p style="text-align:center; margin-top:50px; font-style:italic; font-size:14px;">
+    Real highlights based on LinkedIn (Philips + Data/AI focus – relevant for Eindhoven data team).<br>
+    Edit/add more .node divs for extra noise, change years/text/colors, or duplicate the noise node.
+  </p>
+
+
 </body>
 </html>
