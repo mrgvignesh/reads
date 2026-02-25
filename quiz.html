@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
     mermaid.initialize({ startOnLoad: true, theme: 'dark' });
   </script>
 
-<head>
   <meta charset="UTF-8" />
-  <title>Martin Hutten – Career Knowledge Graph (Ice Breaker)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Ice-Breaker or Fun Quiz</title>
   <style>
-
-<style>
     body {
       font-family: 'Courier New', monospace;
       background: #0d1117;
@@ -29,6 +28,7 @@
       margin: 50px 0;
       padding: 20px;
       background: #161b22;
+      color:#000000;
       border-radius: 8px;
       border: 2px solid #238636;
       box-shadow: 0 4px 12px rgba(0,0,0,0.5);
@@ -131,7 +131,7 @@
       background: #21262d;
     }
     .noise .commit::before {
-      color: #6e7681;
+      color: #ffffff;
     }
     .branch-line {
       position: absolute;
@@ -199,8 +199,9 @@
       align-items: center;
       justify-content: center;
       font-weight: bold;
-      font-size: 13px;
+      font-size: 11px;
       line-height: 1.3;
+      color: #000000;
       box-shadow: 0 4px 8px rgba(0,0,0,0.15);
       transition: all 0.2s;
     }
@@ -212,7 +213,7 @@
       font-size: 15px;
       font-weight: bold;
       margin-bottom: 6px;
-      color: #004d99;
+      color: #ffffff;
     }
     .real {
       background: #e6f3ff;
@@ -223,12 +224,117 @@
       border-color: #aaa;
       opacity: 0.75;
     }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6e6e6;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background: #1f2937;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    h1 { color: #60a5fa; margin: 0; }
+    .progress { font-size: 1.1em; color: #9ca3af; margin: 10px 0; }
+    .quiz-container {
+      max-width: 900px;
+      margin: 0 auto;
+      flex: 1;
+    }
+    .question {
+      background: #1f2937;
+      padding: 25px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      display: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .question.active { display: block; }
+    .question h2 { color: #ffffff; margin-top: 0; }
+    pre, code {
+      background: #111827;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+    .answer {
+      margin-top: 24px;
+      padding: 16px;
+      background: #064e3b;
+      border-left: 5px solid #10b981;
+      border-radius: 6px;
+      display: none;
+    }
+    .answer.show { display: block; }
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+    button {
+      padding: 12px 28px;
+      font-size: 1.1em;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover { background: #2563eb; }
+    button:disabled { background: #4b5563; cursor: not-allowed; }
+    footer {
+      text-align: center;
+      color: #6b7280;
+      margin-top: auto;
+      padding: 20px 0;
+      font-size: 0.9em;
+    }
   </style>
 </head>
 <body>
 
-<h1> Spot the white noise! </h1> 
-  <h1>Martin </h1>
+  <header>
+    <h1>Team Ice-Breaker Quiz<br/> Spot the Noise / Deep Fake / Identify </h1>
+    <div class="progress">Question <span id="current">1</span> of <span id="total">13</span></div>
+  </header>
+
+  <div class="quiz-container">
+
+    <!-- Q11 -->
+    <div class="question" id="q11">
+      <h2>1. Spot the deep fakes</h2>
+
+     <a href="URL_for_the_hyperlink"><img src="https://mrgvignesh.github.io/reads/Squirrel.jpg" alt="Alt text for the image" width="300" /></a>
+     <a href="URL_for_the_hyperlink"><img src="https://mrgvignesh.github.io/reads/Crown.jpg" alt="Alt text for the image" width="300" /></a>
+     <a href="URL_for_the_hyperlink"><img src="https://mrgvignesh.github.io/reads/Steer.jpg" alt="Alt text for the image" width="300" /></a>
+
+     <a href="URL_for_the_hyperlink"><img src="https://mrgvignesh.github.io/reads/Tulip.jpg" alt="Alt text for the image" width="300" /></a>
+
+      <button onclick="showAnswer(11)">Reveal</button>
+      <div class="answer" id="ans11">
+        <strong>Steer in Abhishek / Squirrel in Manfred's path / Crown in Benedicte poster / Tulip in Caspar's trek
+      </div>
+    </div>
+
+
+
+    <!-- Q1 -->
+    <div class="question" id="q1">
+      <h2>2. Martin</h2>
 
   <div class="timeline">
     <div class="node-container">
@@ -236,7 +342,7 @@
       <!-- Real 2 -->
       <div class="node">
         <div class="node-year">~1993–2010+</div>
-        <div class="node-circle real">25+ years Philips: Supply Planning Director, Master Black Belt, Lean/SCM Consultant</div>
+        <div class="node-circle">25+ years Philips: Supply Planning Director, Master Black Belt, Lean/SCM Consultant</div>
       </div>
 
       <!-- Real 3 -->
@@ -253,6 +359,7 @@
 
 
       <!-- Noise 8 (extra for more mix) -->
+
       <div class="node">
         <div class="node-year">—</div>
         <div class="node-circle ">Avid marathon runner (10+ Eindhoven marathons)</div>
@@ -262,109 +369,17 @@
   </div>
 
 
-
-
-
-<h1>Ad denissen </h1>
-
-  <div class="git-log">
-
-    <div class="branch">
-      <div class="branch-line"></div>
-
-      <!-- Commit 1: Education / Initial commit -->
-      <div class="commit noise">
-        <div class="commit-hash">commit e8f4a2b1c9d3e5f67890abcdef1234567890abcd</div>
-        <div class="commit-msg">Initial commit: TU/e Industrial Design Engineering (Ir.)</div>
-        <div class="commit-branch">(main)</div>
+      <button onclick="showAnswer(1)">Reveal</button>
+      <div class="answer" id="ans1">
+        <strong>Answer:</strong> Avid marathon runner 
       </div>
-
-      <!-- Commit 2: Long Philips tenure – EEG/Neurofeedback R&D -->
-      <div class="commit noise">
-        <div class="commit-hash">commit 7b9d3e2f1a4c5d6789fedcba0987654321fe dcba</div>
-        <div class="commit-msg">feat(brain): Decades of Philips Research – EEG, neurofeedback, biofeedback systems & cognitive task R&D</div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-      <!-- Noise commit – distractor -->
-      <div class="commit noise">
-        <div class="commit-hash">commit a1b2c3d4e5f67890abcdef1234567890ghijkl</div>
-        <div class="commit-msg"><i>part: MR machine designs</i> </div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-      <!-- Commit 3: Current role + publications impact -->
-      <div class="commit noise">
-        <div class="commit-hash">commit f0e1d2c3b4a5968778890abcdeffedcba9876543</div>
-        <div class="commit-msg">refactor(architecture): Principal System Architect – Brain, Body & Behavior group @ Philips Research Eindhoven; 14+ pubs, 246+ citations in neuro/EEG</div>
-      </div>
-
     </div>
 
-  </div>
+    <!-- Q2 -->
+    <div class="question" id="q2">
+      <h2>3. Dita</h2>
 
-
-<h1>Joyca  </h1>
-
-  <div class="mermaid">
-    timeline 
-
-      Early 2000s : Phd "Thesis on situated cognition & behavior"
-             
-      2008 : "Start of long tenure in digital engagement, cognition & behavior in Philips"  
-             "Brought attention to healthy living such as food intake and physical activity, medication adherence in chronically ill, and patient and professionals use of telehealth solutions"
-
-      2010s-2020s : "Publications on behavior change, patient motivation, COPD/asthma rehab, AI-adjacent healthcare"
-
-  </div>
-
-
-
-<h1>Find the Anamoly</h1>
-
-<h1>Ramil</h1>
-
-  <div class="git-log">
-
-    <div class="branch">
-      <div class="branch-line"></div>
-
-      <!-- Commit 1: Education / Initial commit -->
-      <div class="commit noise">
-        <div class="commit-hash">commit a1b2c3d4e5f67890abcdef1234567890init</div>
-        <div class="commit-msg">Initial commit: strong foundation in CS/Data/AI for real-world engineering</div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-      <!-- Commit 2: Philips career start / building platforms -->
-      <div class="commit noise">
-        <div class="commit-hash">commit 4f5g6h7i8j9k0lmnopqrstuvwxyz123456</div>
-        <div class="commit-msg">feat(data): Joined Philips Eindhoven – designing & building scalable data platforms for healthcare challenges</div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-      <!-- Noise commit – distractor -->
-      <div class="commit noise">
-        <div class="commit-hash">commit xyz987654321fedcba0987654321noise</div>
-        <div class="commit-msg">docs: adversarial attacks protection methods in Computer Vision, which resulted in several patent applications.</div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-      <!-- Commit 3: Current role – AI solutions focus -->
-      <div class="commit noise">
-        <div class="commit-hash">commit e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4</div>
-        <div class="commit-msg">refactor(ai): Principal/Lead role @ Philips – engineering AI solutions & data platforms to solve real-world healthcare problems in Eindhoven</div>
-        <div class="commit-branch">(main)</div>
-      </div>
-
-    </div>
-
-  </div>
-
-
-<h1>Dita </h1>
-
-  <div class="timeline">
+ <div class="timeline">
     <div class="node-container">
 
       <!-- Real 1: Education -->
@@ -394,8 +409,147 @@
     </div>
   </div>
 
+      <button onclick="showAnswer(1)">Reveal</button>
+      <div class="answer" id="ans1">
+        <strong>Answer:</strong> Avid marathon runner 
+      </div>
+    </div>
 
-<h1>Elisa Canzani – Career Ladder (spot the 3 real steps!)</h1>
+
+
+    <!-- Q3 -->
+    <div class="question" id="q3">
+      <h2>4. Ad denissen</h2>
+      <p>Which commit is suspicious?</p>
+
+ <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-year">Specialized</div>
+        <div class="node-circle real">TU/e Industrial Design Engineering (Ir.)</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-year">2015</div>
+        <div class="node-circle ">Started as Junior Market Researcher at Unilever Indonesia</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-year">~2020–present</div>
+        <div class="node-circle real">Decades of Philips Research – EEG, neurofeedback, biofeedback systems & cognitive task R&D</div>
+      </div>
+
+      <!-- Real 3: Specialization focus -->
+      <div class="node">
+        <div class="node-year">Current</div>
+        <div class="node-circle real">MR machine designs; 14+ pubs, 246+ citations in neuro/EEG</div>
+      </div>
+
+    </div>
+  </div>
+
+
+      <button onclick="showAnswer(3)">Reveal</button>
+      <div class="answer" id="ans3">
+        <strong>Answer:</strong> MR machine design.
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="question" id="q4">
+      <h2>5. Ramil Gizatullin</h2>
+
+
+
+ <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-year">Specialized</div>
+        <div class="node-circle real">strong foundation in CS/Data/AI for real-world engineering</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-year">2015</div>
+        <div class="node-circle ">Started as Junior Market Researcher at Unilever Indonesia</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-year">~2020–present</div>
+        <div class="node-circle real">Designing & building scalable data platforms for healthcare challenges</div>
+      </div>
+
+      <!-- Real 3: Specialization focus -->
+      <div class="node">
+        <div class="node-year">Current</div>
+        <div class="node-circle real">docs: adversarial attacks protection methods in Computer Vision, which resulted in several patent applications</div>
+      </div>
+
+    </div>
+ </div>
+
+      <button onclick="showAnswer(4)">Reveal</button>
+      <div class="answer" id="ans4">
+        <strong>Answer:</strong> :).
+      </div>
+    </div>
+
+
+    <!-- Q5 -->
+    <div class="question" id="q5">
+      <h2>6. Joyca Lacroix</h2>
+
+ <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-year">Specialized</div>
+        <div class="node-circle real">Early 2000s : Phd "Thesis on situated cognition & behavior"</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-circle ">"Start of long tenure in digital engagement, cognition & behavior in Philips"</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-year">~2020–present</div>
+        <div class="node-circle real">"Brought attention to healthy living such as food intake and physical activity, medication adherence in chronically ill,</div>
+      </div>
+
+      <!-- Real 3: Specialization focus -->
+      <div class="node">
+        <div class="node-year">Current</div>
+        <div class="node-circle real">"Publications on behavior change, patient motivation, COPD/asthma rehab, AI-adjacent healthcare"</div>
+      </div>
+
+    </div>
+ </div>
+
+
+      <button onclick="showAnswer(5)">Reveal</button>
+      <div class="answer" id="ans5">
+        <strong>Answer:</strong> :)
+      </div>
+    </div>
+
+
+
+    <!-- Q6 -->
+    <div class="question" id="q6">
+      <h2>7. Elisa Canzani</h2>
+      <p>Which expertise axis is clearly too low / noise?</p>
+
+
 
   <div class="ladder">
 
@@ -416,75 +570,130 @@
       <div class="step-title">Entrepreneur</div>
       <div class="step-desc"><i>Co-founder of the start-up “Commodify”.</i></div>
     </div>
+  </div>
+
+      <div class="answer" id="ans6">
+        <strong>Answer:</strong> Firmware / Hardware Engineering – her focus is data science / AI leadership / healthcare.
+      </div>
+    </div>
+
+
+
+    <!-- Q7 -->
+    <div class="question" id="q7">
+      <h2>8. Marinka / Paul / Rob / Merijn </h2>
+      <p> <center>Annotate </center></p>
+
+
+ <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-year">~2010s : ?</div>
+        <div class="node-circle real">Human-centered innovation & health tech publications (Philips Health Watch 2016, pregnancy monitors 2018)
+</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-circle ">"20+ years in data/AI/enterprise transformation (articles on master data & change mgmt"</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-year">~2020–present</div>
+        <div class="node-circle real">leading human-centered AI, behavior & experience reserch</div>
+      </div>
+
+      <!-- Real 3: Specialization focus -->
+      <div class="node">
+        <div class="node-year">Current</div>
+        <div class="node-circle real">"Transforming organizations to data-driven, Lean Six Sigma, system engineering, process optimization"</div>
+      </div>
+
+    </div>
+ </div>
+
+      <button onclick="showAnswer(7)">Reveal</button>
+      <div class="answer" id="ans7">
+        <strong>Answer:</strong> Paul,Marinka,Rob,Merijn .
+      </div>
+    </div>
+
+
+    <!-- Q10 -->
+    <div class="question" id="q10">
+      <h2>9. Boris,Shalu,Afifa</h2>
+      <p><center>Annotate</center></p>
+
+
+ <div class="timeline">
+    <div class="node-container">
+
+      <!-- Real 1: Education -->
+      <div class="node">
+        <div class="node-circle real">"Publications on user modeling, adherence in behavior change systems"</div>
+      </div>
+
+      <!-- Noise 1 (placeholder – replace/edit this one or duplicate for more noise) -->
+      <div class="node">
+        <div class="node-circle ">"Contributions to human-centered design, digital engagement, cognition & behavior"</div>
+      </div>
+
+      <!-- Real 2: Main career at Philips -->
+      <div class="node">
+        <div class="node-circle real">"Turn data into clear insights,automation with Databricks, Alteryx, and Power BI"</div>
+      </div>
+
+
+    </div>
+ </div>
+
+      <button onclick="showAnswer(10)">Reveal</button>
+      <div class="answer" id="ans10">
+        <strong>Answer:</strong> Boris,Shalu,Afifa.
+      </div>
+    </div>
 
   </div>
 
-
-
-<h1>Deep fakes!</h1>
-
-<h1>Manfred - Summer was a matter of life and death </h1>
-
-
-<h1>Caspar - What we see here is a little flowery plant called the alpenpapaver in dutch or alpine poppy in english which is a specialist of calcareous (limestone), rocky alpine habitats (2000+ meters altitude) with very little soil. It was -and is- very pleasant and energizing to hike in these habitats around this little plant which is also exactly what we did during our holidays.
-</h1>
-
-<h1>Benedicte - My new “ I-statement” </h1>
-
-
-
-
-
-<h1>Annontate</h1>
-
-  <div class="mermaid">
-    timeline
-            
-
-     ~2010s : ? → Human-centered innovation & health tech publications (Philips Health Watch 2016, pregnancy monitors 2018)
-
-     ~2010s : ? → 20+ years in data/AI/enterprise transformation (articles on master data & change mgmt ~2016–2017)      
-
-     ~2020s : ? → Principal Scientist / Fellow @ Philips – leading human-centered AI, behavior & experience research
-
-     ~2020s : ? → Senior Consultant Data & AI Solutions / Industry 4.0  Philips Engineering Solutions
-                  "Transforming organizations to data-driven, Lean Six Sigma, system engineering, process optimization"
-
-            
+  <div class="nav">
+    <button id="prev" onclick="changeQuestion(-1)" disabled>← Previous</button>
+    <button id="next" onclick="changeQuestion(1)">Next →</button>
   </div>
 
- <body>Paul,Marinka,Rob,Merijn</body>
-	
+  <footer>
+    Philips people noise-spotting quiz • Created for team fun • February 2026
+  </footer>
 
-<div class="mermaid">
-    timeline
+  <script>
+    const questions = document.querySelectorAll('.question');
+    const total = questions.length;
+    let currentIndex = 0;
 
-      1990s
-        : ? 
-        : From experimental psychology background → early work on user experience & ambient intelligence
-        "Publications on user modeling, adherence in behavior change systems"
- 
+    document.getElementById('total').textContent = total;
 
-      2010s
-        : ?
-        : Contributions to human-centered design, digital engagement, cognition & behavior
-        "Human-centered AI & behavior"
-      
-     2020s
-        : ?
-        : Turn data into clear insights,automation with Databricks, Alteryx, and Power BI
+    function update() {
+      questions.forEach((q, i) => {
+        q.classList.toggle('active', i === currentIndex);
+      });
+      document.getElementById('current').textContent = currentIndex + 1;
+      document.getElementById('prev').disabled = currentIndex === 0;
+      document.getElementById('next').disabled = currentIndex === total - 1;
+    }
 
+    function changeQuestion(delta) {
+      currentIndex = Math.max(0, Math.min(total - 1, currentIndex + delta));
+      update();	
+    }
 
-  </div>
- <body>Boris,Shalu,Afifa</body>
+    function showAnswer(idx) {
+      document.getElementById(`ans${idx}`).classList.add('show');
+    }
 
-
-
-  <p style="text-align:center; margin-top:50px; font-style:italic; font-size:14px;">
-    Real highlights based on LinkedIn (Philips + Data/AI focus – relevant for Eindhoven data team).<br>
-    Edit/add more .node divs for extra noise, change years/text/colors, or duplicate the noise node.
-  </p>
-
+    update(); // initialize
+  </script>
 
 </body>
 </html>
