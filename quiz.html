@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #0b0e14; color: #00ff41; padding: 20px; }
+        .challenge-card { border: 1px solid #00ff41; padding: 20px; margin-bottom: 40px; border-radius: 8px; background: rgba(0, 255, 65, 0.05); }
+        h2 { text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #00ff41; }
+        .task { color: #fff; font-weight: bold; margin-bottom: 15px; }
+        .options { color: #888; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <h1>📡 SIGNAL VS. NOISE: TEAM DECODER</h1>
+
+    <div class="challenge-card">
+        <h2>01. Martin Hutten</h2>
+        <p class="task">TASK: Identify the "White Noise" (The False Claim)</p>
+        <div class="mermaid">
+            pie title Experience Distribution
+                "User Experience Research" : 45
+                "Philips Design Strategy" : 30
+                "Human Factors Engineering" : 20
+                "Professional Skydiving Instructor" : 5
+        </div>
+        <p class="options">Options: [A] UX Research | [B] Strategy | [C] Human Factors | [D] Skydiving</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>02. Dita Larasati</h2>
+        <p class="task">TASK: Pattern Recognition - Sequence her career path (Chronological)</p>
+        <div class="mermaid">
+            graph LR
+                A[Design Thinking Lead] --- B[IT Project Manager]
+                B --- C[Technical Consultant]
+                C --- D[Business Process Analyst]
+        </div>
+        <p class="options">Identify the sequence: (e.g., B-D-C-A)</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>03. Ad Denissen</h2>
+        <p class="task">TASK: Identify the "White Noise" in his Tech Stack</p>
+        <div class="mermaid">
+            graph TD
+                AD((Ad Denissen)) --> Real1[Software Architecture]
+                AD --> Real2[Consumer Electronics]
+                AD --> Noise[Lead Developer for TikTok Algorithm]
+                AD --> Real3[Agile/Scrum Leadership]
+        </div>
+        <p class="options">Which node is the glitch? A, B, or C?</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>04. Joyca Lacroix</h2>
+        <p class="task">TASK: Un-jumble the Research Timeline</p>
+        <div class="mermaid">
+            timeline
+                title Career Commits
+                A : Senior Scientist & Behavior Change
+                B : PhD Candidate @ TU/e
+                C : Research Scientist @ Philips
+        </div>
+        <p class="options">Correct Order: [1] A-B-C | [2] B-C-A | [3] C-B-A</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>05. Elisa Canzani</h2>
+        <p class="task">TASK: Spot the False Specialty</p>
+        <div class="mermaid">
+            mindmap
+              root((Elisa))
+                UX Design
+                Cognitive Psychology
+                Industrial Design
+                Blockchain Mining
+        </div>
+        <p class="options">Identify the outlier.</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>06. Merijn van der Roest</h2>
+        <p class="task">TASK: Sequence the Business Growth</p>
+        <div class="mermaid">
+            stateDiagram-v2
+                State1: Business Development
+                State2: Co-Founder Role
+                State3: Account Management
+                State1 --> State2
+                State2 --> State3
+        </div>
+        <p class="options">Is this sequence Real or Jumbled?</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>07. Privender Saini</h2>
+        <p class="task">TASK: Identify the fake Career Milestone</p>
+        <div class="mermaid">
+            gitGraph
+                commit id: "A: Software Engineering"
+                commit id: "B: Project Management"
+                commit id: "C: Professional Cricket Player"
+                commit id: "D: Delivery Lead"
+        </div>
+    </div>
+
+    <div class="challenge-card">
+        <h2>08. Manfred Dasselaar</h2>
+        <p class="task">TASK: Arrange by Seniority</p>
+        <div class="mermaid">
+            graph BT
+                A[Senior Director]
+                B[Program Manager]
+                C[Systems Engineer]
+        </div>
+        <p class="options">Order from Start to Present: C-B-A?</p>
+    </div>
+
+    <div class="challenge-card">
+        <h2>09. Boris de Ruyter</h2>
+        <p class="task">TASK: Spot the Fake Academic Honor</p>
+        <ul style="list-style: none;">
+            <li>(A) Principal Scientist at Philips Research</li>
+            <li>(B) Professor at Leiden University</li>
+            <li>(C) Winner of the 2022 Nobel Prize in Physics</li>
+            <li>(D) Expert in Persuasive Technology</li>
+        </ul>
+    </div>
+
+    <div class="challenge-card">
+        <h2>10. Benedicte van Houtert</h2>
+        <p class="task">TASK: Un-jumble the Logic Flow</p>
+        <div class="mermaid">
+            graph TD
+                A[Strategic Design] --> B[Creative Leadership]
+                B --> C[Design Management]
+        </div>
+        <p class="options">Identify the chronological "Pattern".</p>
+    </div>
+
+
+    <div class="card">
+        <h2>11. Caspar Wijffels</h2>
+        <div class="task-box">TASK: Spot the "Requirement" that doesn't exist in his career history.</div>
+        <div class="mermaid">
+            requirementDiagram
+                requirement r1 { id: 1 text: UX Design Strategy }
+                requirement r2 { id: 2 text: Design Management }
+                requirement r3 { id: 3 text: Professional Chef @ Michelin Star }
+                requirement r4 { id: 4 text: Philips Innovation Lead }
+                
+                element user { type: person }
+                user - satisfies -> r1
+                user - satisfies -> r2
+                user - satisfies -> r3
+                user - satisfies -> r4
+        </div>
+        <p class="options">Identify the False Requirement: 1, 2, 3, or 4?</p>
+    </div>
+
+    <div class="card">
+        <h2>12. Robin T. Groen</h2>
+        <div class="task-box">TASK: Pattern Recognition - Is the "Impact Flow" correct?</div>
+        <div class="mermaid">
+            erDiagram
+                UX-RESEARCHER ||--o{ PRODUCT-STRATEGY : influences
+                PRODUCT-STRATEGY ||--o{ USER-GROWTH : drives
+                USER-GROWTH ||--o{ REVENUE : generates
+        </div>
+        <p class="options">Sequence: (A) Correct Pattern | (B) Jumbled Logic</p>
+    </div>
+
+    <div class="card">
+        <h2>13. Abhishek Kumar Singh</h2>
+        <div class="task-box">TASK: Find the "Noise" (The Fake Tech Skill).</div>
+        <div class="mermaid">
+            mindmap
+              root((Abhishek))
+                Data Engineering
+                Cloud Architecture
+                Quantum Teleportation Lead
+                Big Data Analytics
+        </div>
+        <p class="options">Which node contains White Noise?</p>
+    </div>
+
+    <div class="card">
+        <h2>14. Lolik (Luc)</h2>
+        <div class="task-box">TASK: Reconstruct the Timeline Pattern (Oldest to Newest).</div>
+        <div class="mermaid">
+            graph TD
+                A[A: Senior UX Designer]
+                B[B: Visual Design Intern]
+                C[C: Creative Director]
+        </div>
+        <p class="options">Sequence: [1] B-A-C | [2] A-B-C | [3] C-B-A</p>
+    </div>
+
+    <div class="card">
+        <h2>15. Privender Saini</h2>
+        <div class="task-box">TASK: Identify the "Non-Standard" career branch.</div>
+        <div class="mermaid">
+            pie title Time Allocation
+                "Agile Delivery" : 40
+                "Program Management" : 30
+                "Deep Sea Salvage" : 20
+                "Software Engineering" : 10
+        </div>
+        <p class="options">Which slice is pure fiction?</p>
+    </div>
+
+    <div class="card">
+        <h2>16. Manfred Dasselaar</h2>
+        <div class="task-box">TASK: Spot the "Glitch in the Matrix" node.</div>
+        <div class="mermaid">
+            graph LR
+                M((Manfred)) --- Tech[Program Management]
+                M --- Ind[Healthcare Tech]
+                M --- Fake[Undercover Intelligence Officer]
+                M --- Real[System Engineering]
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>17. Boris de Ruyter</h2>
+        <div class="task-box">TASK: Identify the Pattern (Professional vs Academic).</div>
+        <div class="mermaid">
+            classDiagram
+                class Boris {
+                    +Principal Scientist
+                    +Professor of Media Psychology
+                    +Olympic Gold Medalist
+                }
+        </div>
+        <p class="options">Which "Method" is a fabrication?</p>
+    </div>
+
+    <div class="card">
+        <h2>18. Benedicte van Houtert</h2>
+        <div class="task-box">TASK: Complete the Pattern. What comes next?</div>
+        <div class="mermaid">
+            stateDiagram-v2
+                [*] --> DesignConsultant
+                DesignConsultant --> CreativeLead
+                CreativeLead --> DesignManager
+                DesignManager --> ???
+        </div>
+        <p class="options">Option: [A] Strategic Design Leader | [B] Professional Poker Player</p>
+    </div>
+
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    </script>
+</body>
+</html>
