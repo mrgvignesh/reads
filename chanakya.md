@@ -157,3 +157,18 @@ In *Chanakya Niti*, the **ego** is described as a major roadblock to success. Eg
 > "Success belongs to those who master their mind, stay disciplined, and remain humble."
 
 
+            _______________________________________________________
+            
+
+# 5 Habits that leads to adverse effects [Link](https://www.msn.com/en-in/news/other/5-habits-that-secretly-block-positive-energy-according-to-hindu-dharma-shastra/ar-AA1WuNgg?ocid=winp2fptaskbarent&cvid=69a9d1c625f54aed904808038b1f46ee&ei=6)
+
+---
+
+## 1. Speaking Harsh or Hurtful Words
+## 2. Living in Anger and Resentment
+## 3. Disrespecting Parents and Teachers
+## 4. Engaging in Laziness and Neglect of Duty
+## 5. Keeping Impure Surroundings and Thoughts
+
+
+
