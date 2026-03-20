@@ -9,61 +9,94 @@
 </head>
 <body class="bg-slate-900 text-slate-100 font-sans antialiased">
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
     <div x-data="game()" class="max-w-4xl mx-auto px-4 py-12">
-        <header class="text-center mb-12">
-            <h1 class="text-4xl font-extrabold text-blue-400 mb-2">The Rogue Algorithm</h1>
-            <p class="text-slate-400">10 Questions. 3 Agents. 1 Truth-teller.</p>
+        <header class="text-center mb-8">
+            <h1 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400 mb-4">
+                The Rogue Algorithm
+            </h1>
+            
+            <div class="inline-grid grid-cols-1 md:grid-cols-3 gap-4 bg-slate-800/50 border border-slate-700 p-4 rounded-xl text-sm text-left max-w-2xl mx-auto mb-8">
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_10px_#10b981]"></span>
+                    <span><strong>The Bayesian:</strong> $P(\text{Truth}) = 1.0$</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-red-500 shadow-[0_0_10px_#ef4444]"></span>
+                    <span><strong>The Overfitter:</strong> $P(\text{Truth}) = 0.0$</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-amber-500 shadow-[0_0_10px_#f59e0b]"></span>
+                    <span><strong>Stochastic Node:</strong> $P(\text{Truth}) = 0.5$</span>
+                </div>
+            </div>
         </header>
 
-        <div class="bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl p-8">
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl p-8 relative overflow-hidden">
             
             <div x-show="!finished">
-                <div class="w-full bg-slate-700 h-2 rounded-full mb-8">
-                    <div class="bg-blue-500 h-2 rounded-full transition-all duration-500" :style="`width: ${(step + 1) * 10}%` text-align: right"></div>
+                <div class="flex justify-between items-end mb-2">
+                    <span class="text-xs font-mono text-slate-500" x-text="`ITERATION: ${step + 1}/10` text-align: left"></span>
+                    <span class="text-xs font-mono text-slate-500" x-text="`ACCURACY: ${score}/${step}` text-align: right"></span>
+                </div>
+                <div class="w-full bg-slate-700 h-1.5 rounded-full mb-8">
+                    <div class="bg-blue-500 h-1.5 rounded-full transition-all duration-700" :style="`width: ${(step + 1) * 10}%` text-align: right"></div>
                 </div>
 
-                <div class="mb-10 italic text-lg text-slate-300 border-l-4 border-blue-500 pl-4">
-                    <span x-text="questions[step].scenario"></span>
+                <div class="mb-10 text-xl font-light text-slate-200 leading-relaxed italic">
+                    "<span x-text="questions[step].scenario"></span>"
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                     <template x-for="(agent, index) in ['A', 'B', 'C']">
-                        <div class="flex flex-col items-center p-4 bg-slate-750 rounded-xl border border-slate-700">
-                            <img :src="`https://api.dicebear.com/7.x/bottts/svg?seed=${agent}${step}&backgroundColor=b6e3f4`" 
-                                 class="w-24 h-24 mb-4 rounded-full bg-slate-700 p-2 shadow-lg" alt="Avatar">
-                            <h3 class="font-bold text-blue-300 mb-2" x-text="`Agent ${agent}`"></h3>
-                            <p class="text-center text-sm leading-relaxed" x-text="questions[step].dialogue[index]"></p>
+                        <div class="group flex flex-col items-center p-6 bg-slate-900/40 rounded-2xl border border-slate-700 hover:border-blue-500/50 transition-colors">
+                            <img :src="`https://api.dicebear.com/7.x/bottts-neutral/svg?seed=${agent}${step}&backgroundColor=0f172a`" 
+                                 class="w-20 h-20 mb-4 drop-shadow-2xl" alt="Agent">
+                            <h3 class="font-bold text-xs tracking-widest uppercase text-slate-500 mb-3" x-text="`Agent ${agent}`"></h3>
+                            <p class="text-center text-sm font-medium text-slate-300" x-text="`“${questions[step].dialogue[index]}”`"></p>
                         </div>
                     </template>
                 </div>
 
-                <div class="text-center">
-                    <h2 class="text-xl font-semibold mb-6" x-text="questions[step].question"></h2>
+                <div class="text-center border-t border-slate-700 pt-8">
+                    <h2 class="text-lg font-semibold mb-6 text-blue-100" x-text="questions[step].question"></h2>
                     
-                    <div class="flex justify-center gap-4" x-show="!revealed">
+                    <div class="flex flex-wrap justify-center gap-3" x-show="!revealed">
                         <template x-for="option in ['Agent A', 'Agent B', 'Agent C']">
                             <button @click="reveal(option)" 
-                                    class="px-6 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg font-bold transition">
+                                    class="px-8 py-3 bg-slate-700 hover:bg-blue-600 rounded-xl font-bold transition-all transform hover:-translate-y-1 active:scale-95">
                                 <span x-text="option"></span>
                             </button>
                         </template>
                     </div>
 
-                    <div x-show="revealed" class="mt-6 p-6 bg-slate-900 border border-blue-500/30 rounded-xl animate-pulse">
-                        <p class="text-blue-300 font-bold mb-2">Result: <span x-text="correct ? 'CORRECT ✅' : 'INCORRECT ❌'"></span></p>
-                        <p class="text-slate-400 text-sm mb-4" x-text="questions[step].logic"></p>
-                        <button @click="nextStep()" class="px-8 py-2 bg-slate-100 text-slate-900 rounded-lg font-bold hover:bg-white">
-                            Next Question →
+                    <div x-show="revealed" x-transition.opacity class="mt-4 p-6 bg-slate-900/80 border border-blue-500/20 rounded-xl">
+                        <div class="flex items-center justify-center gap-2 mb-3">
+                            <template x-if="correct">
+                                <span class="text-emerald-400 font-bold">● SYSTEM NOMINAL (Correct)</span>
+                            </template>
+                            <template x-if="!correct">
+                                <span class="text-red-400 font-bold">● LOGIC ERROR (Incorrect)</span>
+                            </template>
+                        </div>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 max-w-md mx-auto" x-text="questions[step].logic"></p>
+                        <button @click="nextStep()" class="px-10 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-500 shadow-lg shadow-blue-900/20">
+                            Continue →
                         </button>
                     </div>
                 </div>
             </div>
 
-            <div x-show="finished" class="text-center py-12">
-                <h2 class="text-5xl mb-4">🧠</h2>
-                <h2 class="text-3xl font-bold mb-4">Inference Complete</h2>
-                <p class="text-slate-400 mb-8">Score: <span x-text="score"></span>/10</p>
-                <button @click="location.reload()" class="px-8 py-3 bg-blue-600 rounded-xl font-bold">Restart Session</button>
+            <div x-show="finished" class="text-center py-16">
+                <div class="inline-block p-4 rounded-full bg-blue-500/10 mb-6">
+                    <svg class="w-16 h-16 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <h2 class="text-4xl font-bold mb-2 text-white">Analysis Complete</h2>
+                <p class="text-slate-400 mb-8 font-mono">Final Model Accuracy: <span class="text-blue-400" x-text="`${score * 10}%` text-align: right"></span></p>
+                <button @click="location.reload()" class="px-10 py-4 bg-slate-100 text-slate-900 rounded-xl font-extrabold hover:bg-white transition-all">
+                    Restart Cadence
+                </button>
             </div>
         </div>
     </div>
@@ -76,7 +109,8 @@
                 revealed: false,
                 correct: false,
                 finished: false,
-       questions: [
+                // COPY AND PASTE THE 10 QUESTIONS FROM THE PREVIOUS RESPONSE HERE
+                questions: [
     {
         scenario: "The model is hallucinating. You ask the agents: 'Who is the Stochastic Node?'",
         dialogue: ["Agent B is the Overfitter.", "I am the Stochastic Node.", "Agent A is the Bayesian."],
@@ -159,10 +193,15 @@
                         this.revealed = false;
                     } else {
                         this.finished = true;
+                        confetti({
+                            particleCount: 150,
+                            spread: 70,
+                            origin: { y: 0.6 },
+                            colors: ['#60a5fa', '#10b981', '#ffffff']
+                        });
                     }
                 }
             }
         }
     </script>
-</body>
-</html>
+</body></html>
