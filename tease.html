@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rogue Algorithm: Logic Cadence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased">
+
+    <div x-data="game()" class="max-w-4xl mx-auto px-4 py-12">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-blue-400 mb-2">The Rogue Algorithm</h1>
+            <p class="text-slate-400">10 Questions. 3 Agents. 1 Truth-teller.</p>
+        </header>
+
+        <div class="bg-slate-800 border border-slate-700 rounded-2xl shadow-2xl p-8">
+            
+            <div x-show="!finished">
+                <div class="w-full bg-slate-700 h-2 rounded-full mb-8">
+                    <div class="bg-blue-500 h-2 rounded-full transition-all duration-500" :style="`width: ${(step + 1) * 10}%` text-align: right"></div>
+                </div>
+
+                <div class="mb-10 italic text-lg text-slate-300 border-l-4 border-blue-500 pl-4">
+                    <span x-text="questions[step].scenario"></span>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+                    <template x-for="(agent, index) in ['A', 'B', 'C']">
+                        <div class="flex flex-col items-center p-4 bg-slate-750 rounded-xl border border-slate-700">
+                            <img :src="`https://api.dicebear.com/7.x/bottts/svg?seed=${agent}${step}&backgroundColor=b6e3f4`" 
+                                 class="w-24 h-24 mb-4 rounded-full bg-slate-700 p-2 shadow-lg" alt="Avatar">
+                            <h3 class="font-bold text-blue-300 mb-2" x-text="`Agent ${agent}`"></h3>
+                            <p class="text-center text-sm leading-relaxed" x-text="questions[step].dialogue[index]"></p>
+                        </div>
+                    </template>
+                </div>
+
+                <div class="text-center">
+                    <h2 class="text-xl font-semibold mb-6" x-text="questions[step].question"></h2>
+                    
+                    <div class="flex justify-center gap-4" x-show="!revealed">
+                        <template x-for="option in ['Agent A', 'Agent B', 'Agent C']">
+                            <button @click="reveal(option)" 
+                                    class="px-6 py-2 bg-blue-600 hover:bg-blue-500 rounded-lg font-bold transition">
+                                <span x-text="option"></span>
+                            </button>
+                        </template>
+                    </div>
+
+                    <div x-show="revealed" class="mt-6 p-6 bg-slate-900 border border-blue-500/30 rounded-xl animate-pulse">
+                        <p class="text-blue-300 font-bold mb-2">Result: <span x-text="correct ? 'CORRECT ✅' : 'INCORRECT ❌'"></span></p>
+                        <p class="text-slate-400 text-sm mb-4" x-text="questions[step].logic"></p>
+                        <button @click="nextStep()" class="px-8 py-2 bg-slate-100 text-slate-900 rounded-lg font-bold hover:bg-white">
+                            Next Question →
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div x-show="finished" class="text-center py-12">
+                <h2 class="text-5xl mb-4">🧠</h2>
+                <h2 class="text-3xl font-bold mb-4">Inference Complete</h2>
+                <p class="text-slate-400 mb-8">Score: <span x-text="score"></span>/10</p>
+                <button @click="location.reload()" class="px-8 py-3 bg-blue-600 rounded-xl font-bold">Restart Session</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function game() {
+            return {
+                step: 0,
+                score: 0,
+                revealed: false,
+                correct: false,
+                finished: false,
+       questions: [
+    {
+        scenario: "The model is hallucinating. You ask the agents: 'Who is the Stochastic Node?'",
+        dialogue: ["Agent B is the Overfitter.", "I am the Stochastic Node.", "Agent A is the Bayesian."],
+        question: "Who is the Bayesian?",
+        answer: "Agent B",
+        logic: "If Agent B says 'I am the Stochastic Node' and they were the Bayesian, they'd be lying (impossible). If they were the Overfitter, they'd be telling the truth (impossible). Therefore, Agent B is the Stochastic Node. Following that, Agent A must be the Overfitter and Agent C is the Bayesian."
+    },
+    {
+        scenario: "A suspected data leak has occurred. You ask Agent A for their identity.",
+        dialogue: ["I am not the Bayesian.", "Agent A is telling the truth.", "Agent A is the Overfitter."],
+        question: "Who is Agent A?",
+        answer: "Agent A",
+        logic: "A Bayesian cannot say 'I am not a Bayesian' (that would be a lie). An Overfitter cannot say 'I am not a Bayesian' (that would be the truth). Thus, Agent A must be the Stochastic Node."
+    },
+    {
+        scenario: "The training loss is 0, but validation loss is infinite. You ask: 'Is Agent B the Bayesian?'",
+        dialogue: ["Agent B is the Bayesian.", "Agent C is the Overfitter.", "Agent A is the Overfitter."],
+        question: "Who is the Bayesian?",
+        answer: "Agent B",
+        logic: "If B is the Bayesian, then C is the Overfitter. This makes A's statement ('C is the Overfitter') a truth. Since we only have one Bayesian, A must be the Stochastic Node. This configuration works."
+    },
+    {
+        scenario: "The agents are arguing about the Null Hypothesis.",
+        dialogue: ["Agent B always lies.", "Agent C always lies.", "Agent A and Agent B are both lying right now."],
+        question: "Who is the Bayesian?",
+        answer: "Agent B",
+        logic: "If A is the Bayesian, B is the Overfitter (True). If B is the Overfitter, C is the Bayesian (Wait, that's two Bayesians). If B is the Bayesian, then C is the Overfitter. If C is the Overfitter, his claim that A and B are lying is a lie (because B is telling the truth). This holds."
+    },
+    {
+        scenario: "A $p$-value of 0.04 appears. The Bayesian knows the Null should be rejected. You ask about the result.",
+        dialogue: ["The $p$-value is 0.06. Fail to reject.", "Agent A is the Overfitter.", "The $p$-value is 0.04. Reject."],
+        question: "Who is the Stochastic Node?",
+        answer: "Agent A",
+        logic: "If C is the Bayesian (Truth), then A is lying. If A is lying, B's statement that A is the Overfitter could be true. If B is the Bayesian, C must be Stochastic. If C is the Bayesian, A is the Stochastic Node."
+    },
+    {
+        scenario: "Checking for feature importance. You know 'User_ID' is a junk feature.",
+        dialogue: ["'User_ID' has the highest SHAP value.", "Agent A is lying.", "I am the Bayesian."],
+        question: "If Agent B is the Stochastic Node, who is the Overfitter?",
+        answer: "Agent A",
+        logic: "If Agent A says a junk feature is the most important, they are lying. Since B is Stochastic and we need a Bayesian, Agent C must be the Bayesian. That leaves Agent A as the Overfitter."
+    },
+    {
+        scenario: "The agents are discussing their own programming.",
+        dialogue: ["Agent C is the Bayesian.", "I am the Overfitter.", "Agent B is the Stochastic Node."],
+        question: "Who is the Bayesian?",
+        answer: "Agent C",
+        logic: "Agent B cannot be the Overfitter (he'd be telling the truth) and cannot be the Bayesian (he'd be lying). So B is the Stochastic Node. This makes C's statement true. C is the Bayesian."
+    },
+    {
+        scenario: "The 'Meta-Logic' Test: You ask Agent A what Agent B would say.",
+        dialogue: ["Agent B would say I am the Overfitter.", "Agent C is the Stochastic Node.", "I am the Bayesian."],
+        question: "If Agent A is the Bayesian, what is Agent B?",
+        answer: "Agent B", 
+        logic: "If A is the Bayesian, he must tell the truth about what B would say. For B (the Overfitter) to call A (the Bayesian) an Overfitter, B must lie. This is a consistent state."
+    },
+    {
+        scenario: "The Probability Cloud: You ask about the likelihood of identities.",
+        dialogue: ["There is a 50% chance Agent B is the Bayesian.", "There is a 0% chance Agent A is the Bayesian.", "Statement B is true."],
+        question: "If Agent C is the Bayesian, who is the Overfitter?",
+        answer: "Agent B",
+        logic: "If C is the Bayesian, then B's statement is true. But if B's statement is true, B cannot be the Overfitter... Wait! If B's statement is 0%, and A IS the Bayesian, B is lying. If B is the Overfitter, his 0% claim is a lie because the chance is actually 100%."
+    },
+    {
+        scenario: "The Final Deployment. You need to pick the right Agent to push to Production.",
+        dialogue: ["If you ask Agent B if he is the Bayesian, he will say 'Yes'.", "Agent C is the Bayesian.", "I am the Stochastic Node."],
+        question: "If Agent B is the Overfitter, who is the Bayesian?",
+        answer: "Agent A",
+        logic: "If B is the Overfitter, he would indeed say 'Yes' to being the Bayesian (a lie). Since Agent A predicted this accurately, Agent A is the Bayesian. Agent C is the Stochastic Node."
+    }
+],
+                reveal(choice) {
+                    this.revealed = true;
+                    this.correct = (choice === this.questions[this.step].answer);
+                    if(this.correct) this.score++;
+                },
+                nextStep() {
+                    if (this.step < this.questions.length - 1) {
+                        this.step++;
+                        this.revealed = false;
+                    } else {
+                        this.finished = true;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
